@@ -1,0 +1,44 @@
+body {
+	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+}
+
+.logo {
+	width: 75px;
+	position: absolute;
+	left: 3%;
+	top: 5%;
+	z-index: 10000;
+	position: fixed;
+}
+
+.title {
+	position: relative;
+	height: 300px;
+}
+
+.designtitle{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 30%;
+	
+}
+
+.dimage {
+	display: inline-block;
+	width: 15%;
+	padding: 10px;
+	margin: 0 auto;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+.prow {
+	width: 100%;
+	margin:0 auto;
+}

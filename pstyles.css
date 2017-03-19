@@ -1,0 +1,96 @@
+body {
+	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+}
+
+.logo {
+	width: 60px;
+	position: absolute;
+	left: 3%;
+	top: 5%;
+	z-index: 10000;
+	position: fixed;
+}
+
+.title {
+	position: relative;
+	height: 250px;
+}
+
+.designtitle{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 30%;
+	
+}
+
+.prow, .prow2 {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.prow {
+	height: 700px;
+}
+
+.prow2 {
+	height: 350px;
+}
+
+.pimage {
+	width: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 1300px) {
+	.title {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.title {
+		height: 180px;
+	}
+	.prow {
+		height: 600px;
+	}
+	
+	.prow2 {
+		height: 250px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.title {
+		height: 150px;
+	}
+	.prow {
+		height: 500px;
+	}
+	
+	.prow2 {
+		height: 150px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.title {
+		height: 100px;
+	}
+	.prow {
+		height: 400px;
+	}
+	
+	.prow2 {
+		height: 100px;
+	}
+}
