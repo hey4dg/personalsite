@@ -10,3 +10,4 @@ function scrollDown1() {
 function scrollDown2() {
 	$('body').animate({ scrollTop: $('.about').offset().top }, 1000);
 }
+

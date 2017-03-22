@@ -38,7 +38,7 @@ a {
 	position: absolute;
 	left: 17%;
 	top: 60%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 40px;
 	margin: 0;
 	color: #85744f;
@@ -148,7 +148,7 @@ a {
 }
 
 .text {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #85744f;
 	font-size: 30px;
 	text-align: left;
@@ -162,7 +162,7 @@ a {
 }
 
 .text2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #85744f;
 	font-size: 30px;
 	text-align: right;
@@ -305,7 +305,7 @@ a {
 }
 
 .inquiries {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #85744f;
 	font-size: 25px;
 	margin-top: 30px;
@@ -406,36 +406,40 @@ a {
 	}
 
 }
-
+@media screen and (max-width: 1000px) {
+	.hi {
+		top: 47%;
+	}
+}
 @media screen and (max-width: 900px) {
 	.top-container h4 {
-	top: 65%;
+		top: 65%;
 	}
 	.ocean {
-	height: 180px;
-	top: 15%;
+		height: 180px;
+		top: 15%;
 	}
 
 	.polaroid {
-		width: 160px;
-		top: 25%;
+		width: 200px;
+		top: 23%;
+	}
+	.grey {
+		height:500px;
 	}
 	.box {
 		width: 10%;
-		padding-left: 20px;
-		padding-right: 20px;
-		border: 30px;
-		border: solid;
-		border-color: #85744f;
-		margin-right: 70px;
+		padding-left: 10px;
+		padding-right: 10px;
 		padding-bottom: 10px;
 	}
 	.hi {
-		width: 40%;
+		width: 32%;
 		top: 50%;
 	}
 	.buttons {
 		top: 75%;
+		margin-left: 20%
 	}
 	.box {
 		width: 25%;
@@ -448,36 +452,65 @@ a {
 	}
 
 	.photo {
-		width: 40%;
+		width: 60%;
 		display: block;
+		padding-left: 0;
+		margin-left: 15%;
 	}
 	.bio {
 		width: 80%;
 		display: block;
 	}
 }
-
+@media screen and (max-width: 840px) {
+	img#ocean {
+		display: none;
+	}
+}
 @media screen and (max-width: 800px) {
 	.box {
 		width: 30%;
+		margin-left: 15%;
 		display: block;
 		margin-bottom: 20px;
 	}
 }
+@media screen and (max-width: 700px) {
+	.hi {
+		top: 54%;
+	}
+}
 @media screen and (max-width: 660px) {
 	.hi {
-		width: 60%;
-		top: 50%;
+		width: 45%;
+		top: 53%;
+		left:7%;
 	}
 	.top-container h4 {
-		top: 65%;
+		top: 69%;
 	}
 	.bio {
 		height: 800px;
 	}
+	.buttons {
+		top: 80%;
+	}
 }
-
-
+@media screen and (max-width: 600px) {
+	.hi {
+		top: 55%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.hi {
+		top: 56%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.hi {
+		top: 60%;
+	}
+}
 
 
 
