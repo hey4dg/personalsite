@@ -1,5 +1,9 @@
+function scrollToTop() {
+	$('body').animate({ scrollTop: $('.top-container').offset().top }, 1000);
+}
+
 function scrollDown1() {
-	$('body').animate({ scrollTop: $('.portfolio').offset().top }, 1000);
+	$('body').animate({ scrollTop: $('.portfolio').offset().top }, 800);
 }
 
 

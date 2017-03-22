@@ -1,0 +1,59 @@
+body {
+	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+}
+
+.logo {
+	width: 60px;
+	position: absolute;
+	left: 3%;
+	top: 5%;
+	z-index: 10000;
+	position: fixed;
+}
+
+.title {
+	position: relative;
+	height: 250px;
+}
+
+.designtitle{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 30%;
+	
+}
+
+.prow {
+	width: 100%;
+	margin:0 auto;
+}
+
+.iimage{
+	display: inline-block;
+	width: 35%;
+	padding: 20px;
+	vertical-align: top;
+	margin-left: 8%;
+}
+
+@media screen and (max-width: 1200px) {
+	.title {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.title {
+		height: 150px;
+	}
+	.iimage{
+	display: block;
+	width: 50%;
+	margin-left: 20%;
+}
+}
