@@ -1,9 +1,10 @@
 body {
-	margin: 0 auto;
+	margin: 0;
 }
 
 .container {
 	position: relative;
+	margin: 0 auto;
 }
 
 .logo {
@@ -87,9 +88,13 @@ body {
 	border-width: 2px;
 }
 
-.hw {
+.hw-container {
 	display: inline-block;
 	width: 40%;
+}
+
+.hw {
+	width: 100%;
 }
 
 .derow{
@@ -275,18 +280,32 @@ body {
 	.left1 {
 		width: 100%;
 		margin: 0 auto;
+		position: relative;
+		height: 700px;
+		display: block;
+		margin-bottom: 10%;
 	}
-	.g {
+	.img-container {
 		width: 60%;
+		position: absolute;
+		left: 0;
+		right: 0;
 		margin: 0 auto;
-		display: inline-block;
-		margin-left: 10%
-
 	}
+
+	.g {
+		width: 100%;
+		padding-left: 0;
+	}
+
 	.right {
 		width: 100%;
-		margin-left: 5%;
-		height: 600px;
+		margin: 0 auto;
+		height: 400px;
+		position: relative;
+		display: block;
+		vertical-align: top;
+		margin-top: 10%;
 		
 	}
 
@@ -295,9 +314,13 @@ body {
 		right: 20%;
 	}
 	.gtext {
-		right: 10%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
 		width: 55%;
-		bottom: 15%;
+		bottom: 5%;
+		vertical-align: top;
 	}
 	.gyellow {
 		height: 400px;
@@ -330,6 +353,9 @@ body {
 	.rtitle h1 {
 	font-size: 25px;
 	}
+	.right {
+		margin-top: 15%;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -341,49 +367,52 @@ body {
 	.ep-left, .ep-right {
 		display: block;
 		width: 100%;
-		margin-bottom: 10%;
+		position: relative;
 	}
 
+	.ep-left {
+		height: 400px;
+	}
+
+	.cover, .ep-text {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+	.cover {
+		padding-left: 0;
+	}
 	.hw-left {
 		display: block;
 		width: 100%;
 	}
-	.hw {
+	.hw-container {
 		display: block;
-		width: 70%;
-		padding-left: 15%;
-		vertical-align: top;
+		width: 100%;
+		position: relative;
+		height: 300px;
 	}
-	.gtext {
-		right: 10%;
-		bottom: 10%;
-		width: 65%;
+	.hw {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 60%;
 	}
 	.title {
 		height: 200px;
 	}
-	.gyellow {
-		height: 360px;
-		width: 90%;
-	}
+
 	.right {
 		height: 600px;
+		margin-top: 10%;
 	}
 	.t1row {
 		width: 100%;
 		margin: 0 auto;
 		margin-left: 5%
-	}
-	.left1 {
-		width: 100%;
-		height: 700px;
-	}
-	.g {
-		width: 60%;
-		margin: 0 auto;
-		display: block;
-		margin-left: 5%;
-
 	}
 	.rtitle {
 	width: 40%;
@@ -413,10 +442,6 @@ body {
 	.right {
 		height: 350px;
 	}
-	.left1 {
-		margin-left: 50px;
-		height: 150px;
-	}
 
 	.gtext p, .gtext2 p, .ep-text p, .hw-text p {
 		font-size: 14px;
@@ -426,29 +451,58 @@ body {
 		font-size: 20px;
 
 	}
-	.derow {
-		height: 1000px;
-	}
 	.left1 {
 		height: 500px;
 	}
 	.gtext h3, .gtext2 h3 {
 		font-size: 16px;
 	}
+
+	.left {
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.gtext2 {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
 	.t1 {
 		display: block;
 		width: 60%;
 		margin-left: 15%;
 	}
 
+	.right2 {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		height: 610px;
+	}
+
 	.ltlogo {
 		display: block;
-		width: 60%
+		width: 60%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
 	}
 	.site {
 		display: block;
 		width: 60%;
-		margin-left: 10%
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		bottom: 0;
+	}
+
+	.hw-container {
+		height: 400px;
 	}
 
 }
@@ -487,7 +541,6 @@ body {
 		height: 200px;
 	}
 	.left1 {
-		margin-left: 50px;
 		height: 300px;
 	}
 	.rtitle {
@@ -502,6 +555,9 @@ body {
 		display: block;
 		width: 80%;
 		margin-left: 10%
+	}
+	.hw-container {
+		height: 500px;
 	}
 }
 

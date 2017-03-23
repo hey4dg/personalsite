@@ -1,5 +1,5 @@
 body {
- 	margin: 0;
+ 	margin: 0 ;
 }
 
 a {
@@ -8,6 +8,7 @@ a {
 
 .container {
 	position: relative;
+	width: 100%;
 }
 
 .logo {
@@ -109,6 +110,8 @@ a {
 }
 
 .portfolio {
+	width: 100%;
+	margin: 0 auto;
 	position: relative;
 	z-index: 100;
 }
@@ -257,6 +260,7 @@ a {
 }
 
 .about {
+	width: 100%;
 	margin: 0 auto;
 	height: 100vh;
 	position: relative;
