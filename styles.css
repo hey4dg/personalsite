@@ -1,5 +1,10 @@
 body {
  	margin: 0 ;
+ 	overflow-x:hidden;
+}
+
+meta {
+	display: none;
 }
 
 a {
@@ -414,6 +419,24 @@ a {
 	.hi {
 		top: 47%;
 	}
+	.bio {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.border {
+		right: 0;
+		left: 0;
+		margin: 0 auto;
+		bottom: 10%;
+	}
+	.photo {
+		width: 50%;
+		display: block;
+		padding-left: 0;
+		margin-left: 25%;
+	}
 }
 @media screen and (max-width: 900px) {
 	.top-container h4 {
@@ -454,17 +477,6 @@ a {
 		margin: 0 auto;
 		margin-top: 10px;
 	}
-
-	.photo {
-		width: 60%;
-		display: block;
-		padding-left: 0;
-		margin-left: 15%;
-	}
-	.bio {
-		width: 80%;
-		display: block;
-	}
 }
 @media screen and (max-width: 840px) {
 	img#ocean {
@@ -477,6 +489,10 @@ a {
 		margin-left: 15%;
 		display: block;
 		margin-bottom: 20px;
+	}
+	.photo {
+		width: 60%;
+		margin-left: 20%;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -508,6 +524,9 @@ a {
 @media screen and (max-width: 500px) {
 	.hi {
 		top: 56%;
+	}
+	.bio-text {
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 400px) {
