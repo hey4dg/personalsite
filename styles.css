@@ -642,9 +642,14 @@ a {
 
 @media screen and (max-width: 390px) {
 	.buttons {
-		top: 85%;
+		top: 83%;
 	}
-
+	.top-container h4 {
+		top: 70%;
+	}
+	.hi {
+		top: 55%;
+	}
 }
 
 

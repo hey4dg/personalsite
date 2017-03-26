@@ -366,6 +366,9 @@ meta {
 }
 
 @media screen and (max-width: 900px) {
+	.designtitle {
+		width: 50%;
+	}
 	.ep, .typography2 {
 		display: -webkit-flex;
 	    -webkit-flex-direction: column-reverse;
@@ -546,6 +549,9 @@ meta {
 	}*/
 }
 @media screen and (max-width: 500px) {
+	.designtitle {
+		width: 70%;
+	}
 	.cover {
 		width: 300px;
 		height: 300px

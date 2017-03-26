@@ -75,3 +75,21 @@ body {
 		margin-left: 30%;
 	}
 }
+@media screen and (max-width: 900px) {
+	.designtitle {
+		width: 50%;
+	}
+	.title {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.title {
+		height: 150px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.designtitle {
+		width: 70%;
+	}
+}

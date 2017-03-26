@@ -73,8 +73,11 @@ body {
 	}
 }
 @media screen and (max-width: 900px) {
+	.designtitle {
+		width: 50%;
+	}
 	.title {
-		height: 150px;
+		height: 200px;
 	}
 	.prow {
 		height: 500px;
@@ -95,7 +98,7 @@ body {
 }
 @media screen and (max-width: 600px) {
 	.title {
-		height: 100px;
+		height: 150px;
 	}
 	.prow {
 		height: 400px;
@@ -106,7 +109,9 @@ body {
 	}
 }
 @media screen and (max-width: 500px) {
-	
+	.designtitle {
+		width: 70%;
+	}
 	.prow {
 		height: 300px;
 	}
