@@ -13,7 +13,7 @@ a {
 
 .container {
 	position: relative;
-	width: 100%;
+	max-width: 100%;
 }
 
 .logo {
@@ -26,7 +26,7 @@ a {
 }
 
 .top-container {
-     width: 100%;
+     max-width: 100%;
      display: block;
      height: 100vh;
      position: relative;
@@ -115,7 +115,7 @@ a {
 }
 
 .portfolio {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
@@ -265,7 +265,7 @@ a {
 }
 
 .about {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	height: 100vh;
 	position: relative;
@@ -342,9 +342,11 @@ a {
 	border-width: 3px;
 }
 
+/******* MEDIA QUERYS ********/
+
 @media screen and (max-width: 1400px) {
 	.top-container h4 {
-	font-size: 30px;
+		font-size: 30px;
 	}
 }
 
@@ -367,6 +369,16 @@ a {
 	}
 	.box {
 		width: 20%;
+		margin: 0;
+		margin-left: 10%;
+
+	}
+	.buttons {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		margin-left: 10%;
+
 	}
 
 }
@@ -419,9 +431,13 @@ a {
 	.hi {
 		top: 47%;
 	}
+	.info {
+		width: 100%;
+		margin: 0;
+	}
 	.bio {
 		display: block;
-		width: 80%;
+		width: 85%;
 		margin: 0 auto;
 	}
 
@@ -466,11 +482,12 @@ a {
 	}
 	.buttons {
 		top: 75%;
-		margin-left: 20%
+		margin-left: 7%
 	}
 	.box {
 		width: 25%;
 	}
+
 	.typo, .grit, .salz, .half, .space, .hair, .lips, .diptych, .purple {
 		display: block;
 		width: 80%;
@@ -482,32 +499,66 @@ a {
 	img#ocean {
 		display: none;
 	}
+	.grey {
+		top: 15%;
+		height: 600px;
+	}
+	.polaroid {
+		width: 250px;
+		top: 20%;
+		left: 0;
+		right:0;
+		margin: 0 auto;
+	}
+	.hi {
+		width: 35%;
+		top: 60%;
+	}
+	.top-container h4 {
+		top: 75%;
+	}
+	.buttons {
+		top: 80%;
+	}
 }
 @media screen and (max-width: 800px) {
 	.box {
 		width: 30%;
-		margin-left: 15%;
+		margin-left: 25%;
 		display: block;
 		margin-bottom: 20px;
 	}
+	.hi {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.top-container h4 {
+		text-align: center;
+		top: 74%;
+		left: 22%;
+	}
+
 	.photo {
 		width: 60%;
 		margin-left: 20%;
 	}
 }
 @media screen and (max-width: 700px) {
-	.hi {
-		top: 54%;
+	.top-container h4 {
+		left: 20%;
 	}
 }
 @media screen and (max-width: 660px) {
-	.hi {
+	/*.hi {
 		width: 45%;
 		top: 53%;
-		left:7%;
+	}*/
+	.grey {
+		width: 80%;
 	}
 	.top-container h4 {
-		top: 69%;
+		left: 15%;
 	}
 	.bio {
 		height: 800px;
@@ -515,25 +566,60 @@ a {
 	.buttons {
 		top: 80%;
 	}
+	.yellow4{
+		height: 470px;
+	}
 }
 @media screen and (max-width: 600px) {
 	.hi {
-		top: 55%;
+		top: 62%;
+	}
+	.top-container h4 {
+		font-size: 24px;
+		left: 20%;
+	}
+	.yellow4{
+		height: 480px;
 	}
 }
 @media screen and (max-width: 500px) {
 	.hi {
-		top: 56%;
+		top: 62%;
+		width: 45%;
+	}
+	.polaroid {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.top-container h4 {
+		top: 74%;
+		left: 14%;
 	}
 	.bio-text {
-		font-size: 14px;
+		font-size: 13px;
+	}
+	.yellow4{
+		height: 400px;
 	}
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
 	.hi {
-		top: 60%;
+		top: 63%;
+	}
+@media screen and (max-width: 414px) {
+	.top-container h4 {
+		top: 74%;
+		left: 8%;
+	}
+	.hi {
+		top: 64%;
+	}
+	.yellow4{
+		height: 460px;
 	}
 }
+
 
 
 

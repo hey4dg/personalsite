@@ -269,6 +269,8 @@ meta {
 	margin-left: 5%;
 }
 
+/******* MEDIA QUERYS *******/
+
 @media screen and (max-width: 1340px) {
 	.t1row {
 		width: 70%;
@@ -512,10 +514,10 @@ meta {
 
 }
 @media screen and (max-width: 580px) {
-	.cover {
+	/*.cover {
 		width: 300px;
 		height: 300px
-	}
+	}*/
 	.title {
 		height: 150px;
 	}
@@ -536,11 +538,20 @@ meta {
 	.left {
 		height: 400px;
 	}
+	.hweek {
+		margin-top: 0;
+	}
+	/*.hw-text {
+		width: 70%;
+	}*/
 }
 @media screen and (max-width: 500px) {
-	.cover {
-		width: 200px;
-		height: 200px
+/*	.cover {
+		width: 300px;
+		height: 300px
+	}*/
+	.ep-left {
+		height: 350px;
 	}
 	.right {
 		height: 200px;
@@ -564,13 +575,23 @@ meta {
 	.hw-container {
 		height: 500px;
 	}
+	.hw {
+		width: 70%;
+		margin-top: 10%;
+
+	}
+
+	.hweek {
+		margin-bottom: 20%;
+	}
+	
+
 }
 
-
-
-
-
-
-
+@media screen and (max-width: 450px) {
+	.hweek {
+		margin-bottom: 30%;
+	}
+}
 
 
