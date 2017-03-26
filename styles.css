@@ -641,6 +641,12 @@ a {
 }
 
 @media screen and (max-width: 390px) {
+	.grey {
+		top: 5%;
+	}
+	.polaroid {
+		top: 10%;
+	}
 	.buttons {
 		top: 83%;
 	}

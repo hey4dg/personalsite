@@ -90,6 +90,9 @@ body {
 }
 @media screen and (max-width: 500px) {
 	.designtitle {
-		width: 70%;
+		width: 60%;
+	}
+	.logo {
+		width: 40px;
 	}
 }

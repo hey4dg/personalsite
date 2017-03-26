@@ -110,7 +110,7 @@ body {
 }
 @media screen and (max-width: 500px) {
 	.designtitle {
-		width: 70%;
+		width: 60%;
 	}
 	.prow {
 		height: 300px;
@@ -118,6 +118,9 @@ body {
 	
 	.prow2 {
 		height: 100px;
+	}
+	.logo {
+		width: 40px;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -129,4 +132,5 @@ body {
 	.prow2 {
 		height: 80px;
 	}
+
 }
