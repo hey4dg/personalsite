@@ -119,6 +119,7 @@ a {
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
+	margin-top: 10%;
 }
 
 .work {
@@ -452,6 +453,11 @@ a {
 		display: block;
 		padding-left: 0;
 		margin-left: 25%;
+		margin-top: 20%;
+	}
+	.info {
+		display: -webkit-flex;
+	    -webkit-flex-direction: column-reverse;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -504,7 +510,7 @@ a {
 		height: 600px;
 	}
 	.polaroid {
-		width: 250px;
+		width: 220px;
 		top: 20%;
 		left: 0;
 		right:0;
@@ -512,16 +518,19 @@ a {
 	}
 	.hi {
 		width: 35%;
-		top: 60%;
+		top: 55%;
 	}
 	.top-container h4 {
-		top: 75%;
+		top: 70%;
 	}
 	.buttons {
 		top: 80%;
 	}
 }
 @media screen and (max-width: 800px) {
+	.work {
+		width: 30%;
+	}
 	.box {
 		width: 30%;
 		margin-left: 25%;
@@ -535,7 +544,7 @@ a {
 	}
 	.top-container h4 {
 		text-align: center;
-		top: 74%;
+		/*top: 70%;*/
 		left: 22%;
 	}
 
@@ -550,18 +559,23 @@ a {
 	}
 }
 @media screen and (max-width: 660px) {
-	/*.hi {
+	.hi {
 		width: 45%;
-		top: 53%;
-	}*/
+		top: 50%;
+	}
 	.grey {
 		width: 80%;
+		top: 10%;
+	}
+	.polaroid {
+		top: 15%;
 	}
 	.top-container h4 {
 		left: 15%;
+		top: 66%;
 	}
 	.bio {
-		height: 800px;
+		height: 700px;
 	}
 	.buttons {
 		top: 80%;
@@ -572,7 +586,7 @@ a {
 }
 @media screen and (max-width: 600px) {
 	.hi {
-		top: 62%;
+		/*top: 62%;*/
 	}
 	.top-container h4 {
 		font-size: 24px;
@@ -584,8 +598,8 @@ a {
 }
 @media screen and (max-width: 500px) {
 	.hi {
-		top: 62%;
-		width: 45%;
+		/*top: 62%;*/
+		width: 50%;
 	}
 	.polaroid {
 		left: 0;
@@ -593,7 +607,7 @@ a {
 		margin: 0 auto;
 	}
 	.top-container h4 {
-		top: 74%;
+		/*top: 74%;*/
 		left: 14%;
 	}
 	.bio-text {
@@ -605,21 +619,33 @@ a {
 }
 @media screen and (max-width: 480px) {
 	.hi {
-		top: 63%;
+		/*top: 63%;*/
 	}
+}
 @media screen and (max-width: 414px) {
 	.top-container h4 {
-		top: 74%;
+		/*top: 74%;*/
 		left: 8%;
 	}
 	.hi {
-		top: 64%;
+		/*top: 64%;*/
+		width: 60%;
 	}
 	.yellow4{
 		height: 460px;
 	}
+	.photo {
+		margin-top: 30%;
+	}
+
 }
 
+@media screen and (max-width: 390px) {
+	.buttons {
+		top: 85%;
+	}
+
+}
 
 
 

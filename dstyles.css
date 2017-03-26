@@ -546,10 +546,10 @@ meta {
 	}*/
 }
 @media screen and (max-width: 500px) {
-/*	.cover {
+	.cover {
 		width: 300px;
 		height: 300px
-	}*/
+	}
 	.ep-left {
 		height: 350px;
 	}
@@ -594,4 +594,9 @@ meta {
 	}
 }
 
-
+@media screen and (max-width: 400px) {
+	.cover {
+		width: 250px;
+		height: 250px
+	}
+}
