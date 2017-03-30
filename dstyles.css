@@ -25,17 +25,14 @@ a {
 	position: fixed;
 }
 
-.title {
-	position: relative;
+/*.title {
 	height: 250px;
-}
+}*/
 
 .designtitle{
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+	display: block;
 	width: 30%;
+	margin: 0 auto;
 }
 
 .ep {
@@ -612,5 +609,8 @@ a {
 	.cover {
 		width: 250px;
 		height: 250px
+	}
+	.hweek {
+		margin-bottom: 50%;
 	}
 }

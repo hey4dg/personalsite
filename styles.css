@@ -37,14 +37,14 @@ a {
 	width: 20%;
 	position: absolute;
 	left: 12%;
-	top: 45%;
+	top: 37%;
 	margin: 0;
 }
 
 .top-container h4 {
 	position: absolute;
 	left: 17%;
-	top: 60%;
+	top: 50%;
 	font-family: 'Lato', sans-serif;
 	font-size: 40px;
 	margin: 0;
@@ -82,14 +82,14 @@ a {
 	width: 16%;
 	position: absolute;
 	right: 25%;
-	top: 29%;
+	top: 25%;
 }
 
 .buttons {
 	width: 100%;
 	margin-left: 25%;
 	position: absolute;
-	top: 70%;
+	top: 63%;
 
 }
 
@@ -111,10 +111,11 @@ a {
 	padding: 0;
 	font-size: 18px;
 	text-align: center;
+	font-weight: 300;
 }
 
 .box:hover {
-	border-color: #1F2B05;
+	border-color: #f3f1ee;
 }
 
 .portfolio {
@@ -122,7 +123,7 @@ a {
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
-	/*margin-top: 10%;*/
+/*	margin-top: 10%;*/
 }
 
 .work {
@@ -186,10 +187,11 @@ a {
 
 .text a, .text2 a {
 	text-decoration: none;
+
 }
 
 .text:hover, .text2:hover {
-	border-color: #1F2B05;
+	border-color: #f3f1ee;
 }
 
 .typo {
@@ -286,7 +288,6 @@ a {
 	display: inline-block;
 	margin: 0 auto;
 	padding-bottom: 70px;
-	position: relative;
 }
 
 /*.photo {
@@ -328,31 +329,14 @@ a {
 	font-weight: 700;
 }
 
-/*.inquiries {
-	font-family: 'Lato', sans-serif;
-	color: #85744f;
-	font-size: 25px;
-	margin-top: 30px;
-	margin-bottom: 0px;
-	z-index: 101;
-}
-
-.contact {
-	font-family: 'Open Sans', sans-serif;
-	color: #85744f;
-	font-size: 18px;
-	margin: 0;
-	z-index: 101;
-}*/
-
 .border {
 	border-style: solid;
 	padding: 50px;
 	border-color: #85744f;
-	width: 75%;
+	width: 80%;
 	position: absolute;
 	right: -8%;
-	bottom: -25%;
+	bottom: -30%;
 	z-index: 101;
 	border-width: 3px;
 }
@@ -372,8 +356,6 @@ a {
 	font-family: 'Lato', sans-serif;
 	color: #85744f;
 	display: inline-block;
-
-
 }
 
 form {
@@ -406,7 +388,7 @@ input, textarea {
 }
 
 input[type="submit"]:hover {
-	border-color: #1F2B05;
+	border-color: #f3f1ee;
 }
 
 .contact-section {
@@ -447,7 +429,13 @@ textarea {
 	display: none;
 	padding-left: 25%;
 	vertical-align: top;
-	padding-top: 20%;
+	padding-top: 10%;
+}
+
+.msent {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .sent {
@@ -479,13 +467,13 @@ textarea {
 	}
 	.polaroid {
 		width: 200px;
-		top: 25%;
+		/*top: 25%;*/
 	}
 	.hi {
 		width: 20%;
 		position: absolute;
-		left: 15%;
-		top: 47%;
+		left: 12%;
+		top: 39%;
 		margin: 0;
 	}
 	.box {
@@ -504,26 +492,23 @@ textarea {
 
 }
 
-@media screen and (max-width: 1180px) {
-	/*.bio {
-		width: 50%;
-	}*/
-}
+
 @media screen and (max-width: 1150px) {
 	.top-container h4 {
-		top: 60%;
+		top: 50%;
 	}
 	.polaroid {
-		width: 180px;
+		width: 190px;
 		right: 25%;
-		top: 25%;
+		top: 27%;
 	}
 	.ocean {
 		height: 250px;
+		top: 15%;
 	}
 	.hi {
 		width: 25%;
-		top: 45%;
+		top: 37%;
 	}
 
 	.row2 {
@@ -548,6 +533,21 @@ textarea {
 	}
 
 }
+@media screen and (max-width: 1080px) {
+	/*.bio {
+		width: 50%;
+	}*/
+	.top-container h4 {
+		top: 58%;
+	}
+	.hi {
+		top: 45%;
+	}
+	.border {
+		bottom: -35%;
+		padding: 30px;
+	}
+}
 @media screen and (max-width: 1000px) {
 	.hi {
 		top: 47%;
@@ -561,6 +561,10 @@ textarea {
 		width: 85%;
 		margin: 0 auto;
 
+	}
+
+	.grey2 {
+		height: 350px;
 	}
 
 	.contact_wrapper {
@@ -580,7 +584,7 @@ textarea {
 		right: 0;
 		left: 0;
 		margin: 0 auto;
-		bottom: 10%;
+		bottom: 0;
 	}
 	.photo {
 		width: 50%;
@@ -686,6 +690,12 @@ textarea {
 		width: 60%;
 		margin-left: 20%;
 	}
+	.grey2 {
+		top: 20%;
+	}
+	.border {
+		bottom: -10%;
+	}
 }
 @media screen and (max-width: 700px) {
 	.top-container h4 {
@@ -709,13 +719,16 @@ textarea {
 		top: 66%;
 	}
 	.bio {
-		height: 700px;
+		height: 600px;
 	}
 	.buttons {
 		top: 80%;
 	}
 	.yellow4{
 		height: 470px;
+	}
+	.border {
+		bottom: 5%;
 	}
 }
 @media screen and (max-width: 600px) {
@@ -734,6 +747,13 @@ textarea {
 	.hi {
 		/*top: 62%;*/
 		width: 50%;
+	}
+	.info {
+		padding-bottom: 0;
+	}
+
+	.bio {
+		height: 500px;
 	}
 	.polaroid {
 		left: 0;
@@ -755,6 +775,9 @@ textarea {
 		width: 80%;
 		margin-left: 10%;
 	}
+	.border {
+		bottom: 0%;
+	}
 }
 @media screen and (max-width: 480px) {
 	.hi {
@@ -769,12 +792,22 @@ textarea {
 	.hi {
 		/*top: 64%;*/
 		width: 60%;
+		top: 52%;
 	}
 	.yellow4{
 		height: 460px;
 	}
 	.photo {
 		margin-top: 30%;
+	}
+	.border {
+		padding: 20px;
+	}
+	.buttons {
+		top: 75%;
+	}
+	.portfolio {
+		margin-top: 20%;
 	}
 
 }

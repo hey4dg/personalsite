@@ -16,17 +16,13 @@ body {
 }
 
 .title {
-	position: relative;
 	height: 250px;
 }
 
 .designtitle{
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+	display: block;
 	width: 30%;
-	
+	margin: 0 auto;	
 }
 
 .dimage {
