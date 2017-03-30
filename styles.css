@@ -28,6 +28,7 @@ a {
 .top-container {
      max-width: 100%;
      display: block;
+     padding-top: 10%;
      height: 100vh;
      position: relative;
 }
@@ -99,7 +100,9 @@ a {
 	border: solid;
 	border-color: #85744f;
 	border-width: 2px;
-	margin-right: 70px;}
+	margin-right: 70px;
+	cursor: pointer;
+}
 
 .box p {
 	font-family: 'Open Sans', sans-serif;
@@ -119,23 +122,21 @@ a {
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
-	margin-top: 10%;
+	/*margin-top: 10%;*/
 }
 
 .work {
 	width: 20%;
-	position: absolute;
-	left: 0;
-	right: 0;
 	margin: 0 auto;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
+	display: block;
 	vertical-align: top;
 }
 
 .row1 {
 	width: 90%;
 	margin: 0 auto;
-	margin-top: 15%;
+	margin-top: 5%;
 }
 
 .row2, .row1-1 {
@@ -202,8 +203,8 @@ a {
 	display: inline-block;
 	width: 45%;
 	padding: 10px;
-	border: solid;
-	border-color: #f3f1ee;
+	/*border: solid;
+	border-color: #f3f1ee;*/
 }
 
 .salz {
@@ -268,53 +269,66 @@ a {
 .about {
 	max-width: 100%;
 	margin: 0 auto;
-	height: 100vh;
-	position: relative;
+	/*height: 100vh;*/
+	/*position: relative;*/
 	background-color: white;
-	margin-top: 200px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.about_row {
+	width: 100%;
+	margin: 0 auto;
 }
 
 .info {
-	width: 100%;
+	width: 40%;
+	display: inline-block;
 	margin: 0 auto;
 	padding-bottom: 70px;
+	position: relative;
 }
 
-.photo {
+/*.photo {
 	width: 30%;
 	padding-left: 200px;
 	display: inline-block;
-}
+}*/
 
 .bio {
-	width: 40%;
-	display: inline-block;
+	width: 100%;
+	/*display: inline-block;*/
 	position: relative;
-	height: 700px;
+	height: 450px;
 }
 
-.yellow4 {
+.grey2 {
 	z-index: 100;
 	background-color: #f3f1ee;
 	width: 100%;
-	height: 370px;
+	height: 420px;
 	margin-bottom: 100px;
 	position: absolute;
 	left: 0;
-	bottom: 3%;
+	top: 8%;
 }
 
 .bio-text {
 	font-family: 'Open Sans', sans-serif;
 	color: #85744f;
 	font-size: 16px;
+	font-weight: 300;
 	margin: 0;
 	line-height: 1.5;
 	z-index: 101;
 
 }
 
-.inquiries {
+.bold-text {
+	font-weight: 700;
+}
+
+/*.inquiries {
 	font-family: 'Lato', sans-serif;
 	color: #85744f;
 	font-size: 25px;
@@ -329,7 +343,7 @@ a {
 	font-size: 18px;
 	margin: 0;
 	z-index: 101;
-}
+}*/
 
 .border {
 	border-style: solid;
@@ -338,9 +352,115 @@ a {
 	width: 75%;
 	position: absolute;
 	right: -8%;
-	bottom: -2%;
+	bottom: -25%;
 	z-index: 101;
 	border-width: 3px;
+}
+
+.contact_wrapper {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	padding-top: 5%;
+}
+
+.contact-form {
+	width: 80%;
+	margin: 0 auto;
+	padding-left: 25%;
+	font-family: 'Lato', sans-serif;
+	color: #85744f;
+	display: inline-block;
+
+
+}
+
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	height: 24px;
+	padding: 6px 10px;
+}
+input[type="submit"] {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	color: #85744f;
+	font-family: 'Lato', sans-serif;
+	border: 2px solid #85744f;
+	padding: 15px 0px;
+	margin-top: 10px;
+	font-size: 18px;
+	-webkit-appearance: button;
+    cursor: pointer;
+    background-color: white;
+}
+
+input, textarea {
+	font: inherit;
+}
+
+input[type="submit"]:hover {
+	border-color: #1F2B05;
+}
+
+.contact-section {
+	display: inline-block;
+	width: 50%;
+
+}
+
+.contact-section .first-input {
+    width: calc(100% - 40px);
+}
+
+input, textarea {
+    margin-bottom: 1.5rem;
+    width: calc(100% - 20px);
+    padding: 6px 10px;
+}
+
+.contact-form h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.name, .email, .phone, .message {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+}
+
+textarea {
+	min-height: 80px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.message_sent {
+	display: none;
+	padding-left: 25%;
+	vertical-align: top;
+	padding-top: 20%;
+}
+
+.sent {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #85744f;
+	padding-bottom: 10%;
+}
+
+.form_errors {
+	color: red;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
 }
 
 /******* MEDIA QUERYS ********/
@@ -385,9 +505,9 @@ a {
 }
 
 @media screen and (max-width: 1180px) {
-	.bio {
+	/*.bio {
 		width: 50%;
-	}
+	}*/
 }
 @media screen and (max-width: 1150px) {
 	.top-container h4 {
@@ -440,6 +560,20 @@ a {
 		display: block;
 		width: 85%;
 		margin: 0 auto;
+
+	}
+
+	.contact_wrapper {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.contact-form {
+		padding: 0;
+		width: 60%;
+		margin: 0 auto;
+		margin-left: 20%;
 	}
 
 	.border {
@@ -615,6 +749,11 @@ a {
 	}
 	.yellow4{
 		height: 400px;
+	}
+
+	.contact-form {
+		width: 80%;
+		margin-left: 10%;
 	}
 }
 @media screen and (max-width: 480px) {

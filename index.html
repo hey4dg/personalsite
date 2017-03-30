@@ -6,13 +6,12 @@
 	<title>Emily Yun | Portfolio</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="main.js"></script>
 </head>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 </style>
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300, 700');
 </style>
 <body>
 
@@ -42,7 +41,7 @@
 		<div class="title">
 			<p class="text"><a href="design.html" target="_blank">DESIGN<br>[freelance work]</a></p>
 		</div><div class="images">
-			<img class="typo" src="aka.jpg"/><img class="grit" src="grit1.png"/>
+			<img class="grit" src="lauriestablelogo.png"/><img class="typo" src="PickMeUpsEP.jpg"/>
 		</div>
 	</div>
 	<div class="row2">
@@ -70,23 +69,52 @@
 
 <div class="about">
 	<img class="work" src="about.jpg"/>
-	<div class="info">
-		<div class="bio">
-			<div class="yellow4"></div>
-			<div class="border">
-				<p class="bio-text">
-				I'm currently in my third year at the University of Virginia studying Cognitive Science and Studio Art.
-				<br>In addition to painting, drawing, darkroom photography, UX/UI design, and visual design, I am passionate about studying the philosophy and psychology behind the human mind and artifical intelligence in particular.
-				<br>My favorite medium is a Bic ballpoint pen, and my favorite color changes daily.
-				<br>Technical skills: proficiency in Java, HTML, CSS, and JavaScript; fluency in wireframing and Adobe Creative Cloud (InDesign, Photoshop, Illustrator).
-				<br>Exhibitions: "100 Artists for Ella Fitzgerald", Newport News Gallery, Virginia, 2017
-				</p>
-				<h3 class="inquiries">Inquiries?</h3>
-				<p class="contact">Email: hey4dg@virginia.edu <br> Instagram: @eyun.art</p>
+	<div class=about_row>
+		<div class="info">
+			<div class="bio">
+				<div class="grey2"></div>
+				<div class="border">
+					<p class="bio-text">
+					I'm currently in my third year at the University of Virginia studying Cognitive Science and Studio Art.
+					<br>In addition to painting, drawing, darkroom photography, UX/UI design, and visual design, I am passionate about studying the philosophy and psychology behind the human mind and artifical intelligence in particular.
+					<br>My favorite medium is a Bic ballpoint pen, and my favorite color changes daily.
+					<br><br>
+					<span class="bold-text">Technical skills:</span> proficiency in Java, HTML, CSS, and JavaScript; fluency in wireframing and Adobe Creative Cloud (InDesign, Photoshop, Illustrator).
+					<br><br>
+					<span class="bold-text">Exhibitions:</span> "100 Artists for Ella Fitzgerald", Newport News Gallery, Virginia, 2017
+					</p>
+				</div>
 			</div>
-		</div><img class="photo" src="me.jpg"/>
+		</div><div class="contact_wrapper" style="visibility: visible;">
+				<div class="form_wrapper">
+					<form class="contact-form" name="contact-form" method="post" action="send_form_email.php">
+						<h1>CONTACT</h1>
+						<div class="form_errors"></div>
+						<div class="name">Name</div>
+							<input type="text" name="name"><br>
+						<div class="contact-section">
+						<div class="email">Email</div>
+							<input class="first-input" type="text" name="email"><br>
+						</div><div class="contact-section">
+							<div class="phone">Phone</div>
+								<input type="text" name="phone"><br>
+						</div>
+						<div class="message">Message</div>
+							<textarea name="message" placeholder="What can I help you with?"></textarea><br>
+						<input type="submit" value="submit">
+						<!-- <h1>Instagram: @eyun.art</h1> -->
+					</form>
+				</div>
+				<div class="message_sent">
+					<h1 class="sent">Message Sent.<br>Thanks! I'll be in touch.</h1>
+				</div>
+			</div>
+		</div><!-- <img class="photo" src="me.jpg"/> -->
 	</div>
 </div>
+
+<script src="main.js"></script>
+
 </body>
 </html>
 
