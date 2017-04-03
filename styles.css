@@ -11,6 +11,10 @@ a {
 	color: #85744f;
 }
 
+link {
+	display: none;
+}
+
 .container {
 	position: relative;
 	max-width: 100%;
