@@ -25,9 +25,27 @@ a {
 	position: fixed;
 }
 
-/*.title {
-	height: 250px;
-}*/
+.sv {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.sv-left {
+	width: 50%;
+	display: inline-block;
+	height: 400px;
+	position: relative;
+	vertical-align: top;
+}
+
+.sv-right {
+	width: 50%;
+	display: inline-block;
+}
+
+.she {
+	width: 60%;
+}
 
 .designtitle{
 	display: block;
@@ -38,6 +56,7 @@ a {
 .ep {
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 10%;
 }
 
 .ep-left {
@@ -351,6 +370,20 @@ a {
 	.designtitle {
 		width: 50%;
 	}
+
+	.sv-left, .sv-right {
+		display: block;
+		width: 100%;
+	}
+
+
+
+	.she {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+
 	.ep {
 		display: -webkit-flex;
 	    -webkit-flex-direction: column-reverse;
@@ -423,10 +456,13 @@ a {
 		width: 350px;
 		height: 350px
 	}
-	.right {
+	.right, .sv-left {
 		height: 350px;
 	}
 
+	.sv {
+		overflow-x:hidden;
+	}
 	.gtext p, .gtext2 p, .ep-text p, .hw-text p {
 		font-size: 14px;
 	}
@@ -563,6 +599,9 @@ a {
 	}
 	.logo {
 		width: 40px;
+	}
+	.sv-left {
+		height: 300px;
 	}
 	
 
