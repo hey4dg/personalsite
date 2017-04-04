@@ -351,7 +351,7 @@ link {
 	margin: 0 auto;
 	vertical-align: top;
 	padding-top: 5%;
-	overflow-x:hidden;
+/*	overflow-x:hidden;*/
 }
 
 .contact-form {
@@ -458,9 +458,9 @@ textarea {
 	font-family: 'Lato', sans-serif;
 }
 
-.form_wrapper {
+/*.form_wrapper {
 	overflow-x:hidden;
-}
+}*/
 
 /******* MEDIA QUERYS ********/
 

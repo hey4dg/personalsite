@@ -64,11 +64,12 @@ body {
 	.dimage {
 		width: 40%;
 		display: block;
-		margin-left: 30%
+		margin: 0 auto;
 	}
 	.dimage2 {
+		width: 40%;
 		display: block;
-		margin-left: 30%;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -90,5 +91,10 @@ body {
 	}
 	.logo {
 		width: 40px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.dimage, .dimage2 {
+		width: 70%;
 	}
 }

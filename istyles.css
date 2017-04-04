@@ -50,7 +50,7 @@ body {
 	.iimage{
 		display: block;
 		width: 50%;
-		margin-left: 20%;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -67,5 +67,11 @@ body {
 	}
 	.logo {
 		width: 40px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.iimage {
+		width: 80%;
 	}
 }

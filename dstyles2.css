@@ -427,7 +427,11 @@ a {
 		right: 0;
 		margin: 0 auto;
 	}
-
+	.hw-text {
+		left: 0;
+		right: 0 ;
+		margin: 0 auto;
+	}
 	.cover {
 		padding-left: 0;
 	}
@@ -642,5 +646,8 @@ a {
 	}
 	.hweek {
 		margin-bottom: 50%;
+	}
+	.right2 {
+		height: 500px;
 	}
 }
