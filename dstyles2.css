@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	overflow-x:hidden;
+	overflow-x: hidden;
 }
 
 meta {
@@ -14,6 +14,7 @@ a {
 .container {
 	position: relative;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 .logo {
@@ -28,6 +29,7 @@ a {
 .sv {
 	width: 100%;
 	margin: 0 auto;
+	overflow-x:hidden;
 }
 
 .sv-left {
@@ -36,11 +38,13 @@ a {
 	height: 400px;
 	position: relative;
 	vertical-align: top;
+/*	overflow-x: hidden;*/
 }
 
 .sv-right {
 	width: 50%;
 	display: inline-block;
+/*	overflow-x: hidden;*/
 }
 
 .she {
@@ -57,11 +61,13 @@ a {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 10%;
+	overflow-x:hidden;
 }
 
 .ep-left {
 	display: inline-block;
 	width: 60%;
+/*	overflow-x: hidden;*/
 }
 
 .cover {
@@ -76,6 +82,7 @@ a {
 	height: 300px;
 	position: relative;
 	vertical-align: top;
+/*	overflow-x: hidden;*/
 }
 .ep-text {
 	position: absolute;
@@ -86,12 +93,14 @@ a {
 	border-style: solid;
 	padding: 30px; 
 	border-width: 2px;
+/*	overflow-x: hidden;*/
 }
 
 .hweek {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 10%;
+	overflow-x: hidden;
 }
 
 .hw-left {
@@ -100,6 +109,7 @@ a {
 	height: 400px;
 	position: relative;
 	vertical-align: top;
+/*	overflow-x: hidden;*/
 }
 
 .hw-text {
@@ -111,12 +121,14 @@ a {
 	border-style: solid;
 	padding: 30px; 
 	border-width: 2px;
+/*	overflow-x: hidden;*/
 }
 
 .hw-container {
 	display: inline-block;
 	width: 30%;
 	vertical-align: top;
+	overflow-x:hidden;
 }
 
 .hw {
@@ -127,18 +139,21 @@ a {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 10%;
+	/*overflow-x:hidden;*/
 }
 
 .derow1{
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 10%;
+	/*overflow-x:hidden;*/
 }
 
 .left1 {
 	width: 50%;
 	display: inline-block;
 	margin: 0 auto;
+/*	overflow-x: hidden;*/
 
 }
 
@@ -156,6 +171,7 @@ a {
 	position: relative;
 	vertical-align: top;
 	height: 400px;
+/*	overflow-x: hidden;*/
 }
 
 .gtext {
@@ -167,6 +183,7 @@ a {
 	border-style: solid;
 	padding: 30px; 
 	border-width: 2px;
+/*	overflow-x: hidden;*/
 }
 
 .gtext p, .ep-text p, .hw-text p, .gtext2 p {
@@ -203,6 +220,7 @@ a {
 	width: 30%;
 	height: 300px;
 	vertical-align: top;
+/*	overflow-x: hidden;*/
 
 }
 
@@ -210,6 +228,7 @@ a {
 	width: 70%;
 	display: inline-block;
 	margin:0;
+/*	overflow-x: hidden;*/
 }
 
 .ltlogo{
@@ -247,6 +266,7 @@ a {
 .typography2 {
 	width: 100%;
 	margin-top: 10%;
+	overflow-x: hidden;
 }
 
 .rtitle {
@@ -267,6 +287,7 @@ a {
 	width: 100%;
 	margin: 0 auto;
 	margin-left: 10%;
+/*	overflow-x:hidden;*/
 }
 
 .t1 {
@@ -374,6 +395,7 @@ a {
 	.sv-left, .sv-right {
 		display: block;
 		width: 100%;
+		margin: 0 auto;
 	}
 
 

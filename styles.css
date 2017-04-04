@@ -1,6 +1,6 @@
 body {
  	margin: 0 ;
- 	overflow-x:hidden;
+ 	overflow-x: hidden;
 }
 
 meta {
@@ -18,6 +18,7 @@ link {
 .container {
 	position: relative;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .logo {
@@ -35,6 +36,7 @@ link {
      padding-top: 10%;
      height: 100vh;
      position: relative;
+     overflow-x: hidden;
 }
 
 .hi {
@@ -43,6 +45,7 @@ link {
 	left: 12%;
 	top: 37%;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 .top-container h4 {
@@ -53,6 +56,7 @@ link {
 	font-size: 40px;
 	margin: 0;
 	color: #85744f;
+	overflow-x: hidden;
 }
 
 .grey {
@@ -79,6 +83,7 @@ link {
 	border: solid;
 	border-color: #85744f;
 	border-width: 2px;
+	/*overflow-x:hidden;*/
 }
 
 .polaroid {
@@ -94,7 +99,7 @@ link {
 	margin-left: 25%;
 	position: absolute;
 	top: 63%;
-
+	overflow-x: hidden;
 }
 
 .box {
@@ -127,6 +132,7 @@ link {
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
+	overflow-x: hidden;
 /*	margin-top: 10%;*/
 }
 
@@ -142,12 +148,14 @@ link {
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 5%;
+	/*overflow-x: hidden;*/
 }
 
 .row2, .row1-1 {
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 10%;
+	/*overflow-x:hidden;*/
 }
 
 .images {
@@ -160,6 +168,7 @@ link {
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
+	/*overflow-x:hidden;*/
 }
 
 .text {
@@ -261,17 +270,6 @@ link {
 	margin: 0;
 }
 
-.about-title {
-	width: 20%;
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	padding-top: 40px;
-	vertical-align: bottom;
-
-}
-
 .about {
 	max-width: 100%;
 	margin: 0 auto;
@@ -280,11 +278,13 @@ link {
 	background-color: white;
 	margin-top: 10%;
 	margin-bottom: 10%;
+	overflow-x:hidden;
 }
 
 .about_row {
 	width: 100%;
 	margin: 0 auto;
+	/*overflow-x:hidden;*/
 }
 
 .info {
@@ -351,6 +351,7 @@ link {
 	margin: 0 auto;
 	vertical-align: top;
 	padding-top: 5%;
+	overflow-x:hidden;
 }
 
 .contact-form {
@@ -455,6 +456,10 @@ textarea {
 	color: red;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
+}
+
+.form_wrapper {
+	overflow-x:hidden;
 }
 
 /******* MEDIA QUERYS ********/
@@ -829,15 +834,30 @@ textarea {
 		top: 10%;
 	}
 	.buttons {
-		top: 83%;
+		top: 75%;
 	}
 	.top-container h4 {
-		top: 70%;
+		top: 65%;
+		left: 5%;
 	}
 	.hi {
-		top: 55%;
+		top: 52%;
 	}
 }
 
 
-
+@media screen and (max-width: 320px) {
+	.buttons {
+		top: 78%;
+	}
+	.top-container h4 {
+		top: 67%;
+		left: 5%;
+	}
+	.hi {
+		top: 55%;
+	}
+	.bio-text {
+		font-size: 12px;
+	}
+}
