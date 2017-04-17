@@ -27,16 +27,16 @@ a {
 }
 
 .sv {
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
 	overflow-x:hidden;
 }
 
 .sv-left {
 	width: 50%;
+	margin: 0 auto;
 	display: inline-block;
-	height: 400px;
-	position: relative;
+/*	height: 400px;*/
 	vertical-align: top;
 /*	overflow-x: hidden;*/
 }
@@ -49,6 +49,8 @@ a {
 
 .she {
 	width: 60%;
+	margin: 0 auto;
+	display: block;
 }
 
 .designtitle{
@@ -58,7 +60,7 @@ a {
 }
 
 .ep {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	margin-top: 10%;
 	overflow-x:hidden;
@@ -79,44 +81,42 @@ a {
 .ep-right {
 	display: inline-block;
 	width: 40%;
-	height: 300px;
-	position: relative;
+	margin: 0 auto;
+/*	height: 300px;*/
 	vertical-align: top;
 /*	overflow-x: hidden;*/
 }
 .ep-text {
-	position: absolute;
-	left: 0;
-	top: 10%;
+	padding-top: 10%;
 	width: 50%;
 	border-color:#85744f;
 	border-style: solid;
 	padding: 30px; 
 	border-width: 2px;
+	margin: 0 auto;
 /*	overflow-x: hidden;*/
 }
 
 .hweek {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	margin-top: 10%;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .hw-left {
 	width: 60%;
+	margin: 0 auto;
 	display: inline-block;
-	height: 400px;
-	position: relative;
+/*	height: 400px;*/
 	vertical-align: top;
 /*	overflow-x: hidden;*/
 }
 
 .hw-text {
-	position: absolute;
-	left: 20%;
-	top: 10%;
 	width: 50%;
+	margin: 0 auto;
 	border-color:#85744f;
 	border-style: solid;
 	padding: 30px; 
@@ -135,54 +135,52 @@ a {
 	width: 100%;
 }
 
-.derow{
+.div{
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 10%;
-	/*overflow-x:hidden;*/
+	margin-bottom: 20%;
 }
 
-.derow1{
+.laurie{
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 10%;
-	/*overflow-x:hidden;*/
 }
 
 .left1 {
 	width: 50%;
 	display: inline-block;
 	margin: 0 auto;
-/*	overflow-x: hidden;*/
 
 }
 
 .g {
-	width: 80%;
+	width: 60%;
 	display: block;
+	margin: 0 auto;
 	vertical-align: top;
 	margin-top: 0;
-	padding-left: 120px;
+	padding: 10px;
+	border: solid 1px #85744f;
 }
 
 .right {
 	width: 50%;
 	display: inline-block;
-	position: relative;
 	vertical-align: top;
-	height: 400px;
+	height: 200px;
 /*	overflow-x: hidden;*/
+
 }
 
 .gtext {
-	position: absolute;
-	right: 13%;
-	bottom: -33%;
-	width: 65%;
+	width: 45%;
+	margin: 0 auto;
 	border-color:#85744f;
 	border-style: solid;
 	padding: 30px; 
 	border-width: 2px;
+	vertical-align: top;
 /*	overflow-x: hidden;*/
 }
 
@@ -216,16 +214,17 @@ a {
 .left {
 	margin-top: 100px;
 	display: inline-block;
-	position: relative;
 	width: 30%;
-	height: 300px;
+	margin: 0 auto;
+/*	height: 300px;*/
 	vertical-align: top;
+	margin-left: 5%;
 /*	overflow-x: hidden;*/
 
 }
 
 .right2 {
-	width: 70%;
+	width: 65%;
 	display: inline-block;
 	margin:0;
 /*	overflow-x: hidden;*/
@@ -247,10 +246,8 @@ a {
 }
 
 .gtext2 {
-	position: absolute;
-	left: 30%;
-	bottom: 25%;
-	width: 68%;
+	width: 60%;
+	margin: 0 auto;
 	border-color:#85744f;
 	border-style: solid;
 	padding: 20px; 
@@ -296,7 +293,9 @@ a {
 	padding: 30px 30px 0px 0px;
 }
 
-/******* MEDIA QUERYS *******/
+/******************************
+           MEDIA QUERYS 
+*******************************/
 
 @media screen and (max-width: 1340px) {
 	.rtitle {
@@ -310,32 +309,24 @@ a {
 	.left1 {
 		width: 100%;
 		margin: 0 auto;
-		position: relative;
-		height: 700px;
+		/*height: 700px;*/
 		display: block;
-		margin-bottom: 10%;
-	}
-	.img-container {
-		width: 60%;
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
+
 	}
 
 	.g {
-		width: 100%;
+		width: 70%;
 		padding-left: 0;
+		vertical-align: bottom;
 	}
 
 	.right {
 		width: 100%;
 		margin: 0 auto;
-		height: 400px;
-		position: relative;
+		/*height: 400px;*/
 		display: block;
 		vertical-align: top;
-		margin-top: 10%;
+		margin-bottom: 5%;
 		
 	}
 
@@ -343,23 +334,24 @@ a {
 		font-size: 30px;
 	}
 	.gtext {
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
 		width: 55%;
-		bottom: 5%;
+		margin: 0 auto;
 		vertical-align: top;
 	}
-	.gyellow {
-		height: 400px;
-		width: 75%;
-		bottom: 1%;
-
-	}
-	.derow {
+	.div {
 		display: -webkit-flex;
 	    -webkit-flex-direction: column-reverse;
+	    margin-bottom: 10%;
+	}
+
+	.gtext2 {
+		width: 75%;
+	}
+
+}
+@media screen and (max-width: 1170px) {
+	.hw-text {
+		width: 60%;
 	}
 }
 @media screen and (max-width: 1100px) {
@@ -370,20 +362,25 @@ a {
 	.left {
 		display: block;
 		width: 60%;
+		margin: 0 auto;
 	}
-	.g {
+	/*.g {
 		vertical-align: bottom;
-	}
+	}*/
 	.right2 {
 		display: block;
 		width: 80%;
+		margin: 0 auto;
 		margin-left: 100px;
 	}
 	.rtitle {
-	font-size: 25px;
+		font-size: 25px;
 	}
-	.right {
+	/*.right {
 		margin-top: 15%;
+	}*/
+	.hw-text {
+		width: 70%;
 	}
 }
 
@@ -398,12 +395,11 @@ a {
 		margin: 0 auto;
 	}
 
-
-
 	.she {
 		display: block;
 		width: 50%;
 		margin: 0 auto;
+		margin-top: 5%;
 	}
 
 	.ep {
@@ -414,26 +410,19 @@ a {
 	.ep-left, .ep-right {
 		display: block;
 		width: 100%;
-		position: relative;
-	}
-
-	.ep-left {
-		height: 400px;
 	}
 
 	.cover, .ep-text {
-		position: absolute;
-		left: 0;
-		right: 0;
 		margin: 0 auto;
 	}
 	.hw-text {
-		left: 0;
-		right: 0 ;
 		margin: 0 auto;
 	}
 	.cover {
+		display: block;
+		margin: 0 auto;
 		padding-left: 0;
+		margin-top: 5%;
 	}
 	.hw-left {
 		display: block;
@@ -442,50 +431,39 @@ a {
 	.hw-container {
 		display: block;
 		width: 100%;
-		position: relative;
-		height: 300px;
 	}
 	.hw {
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
+		display: block;
 		width: 60%;
+		margin: 0 auto;
 	}
 	.title {
 		height: 200px;
 	}
 
 	.right {
-		height: 600px;
+		/*height: 600px;*/
 		margin-top: 10%;
 	}
 	.t1row {
 		width: 100%;
 		margin: 0 auto;
-		margin-left: 5%
-	}
-
-	.tyellow {
-		right: 0;
-		top: 10%;
-		width: 120%;
+		margin-left: 5%;
 	}
 	.rtitle {
 		font-size: 25px;
 		padding: 20px;
+	}
+	.div {
+		margin-top: 0;
 	}
 }
 
 @media screen and (max-width: 700px) {
 	.cover {
 		width: 350px;
-		height: 350px
+		height: auto;
 	}
-	.right, .sv-left {
-		height: 350px;
-	}
-
 	.sv {
 		overflow-x:hidden;
 	}
@@ -497,65 +475,46 @@ a {
 		font-size: 20px;
 
 	}
-	.left1 {
-		height: 500px;
+	.g {
+		margin-top: 5%;
 	}
 	.gtext h3, .gtext2 h3 {
 		font-size: 16px;
 	}
 
 	.left {
-		position: relative;
 		width: 80%;
 		margin: 0 auto;
 	}
 	.gtext2 {
-		position: absolute;
-		left: 0;
-		right: 0;
 		margin: 0 auto;
 	}
-
 	.t1 {
 		display: block;
 		width: 60%;
 		margin-left: 15%;
 	}
-
 	.right2 {
-		position: relative;
 		width: 100%;
 		margin: 0 auto;
-		height: 610px;
 	}
 
 	.ltlogo {
 		display: block;
 		width: 60%;
-		position: absolute;
-		left: 0;
-		right: 0;
 		margin: 0 auto;
 	}
 	.site {
 		display: block;
 		width: 60%;
-		position: absolute;
-		left: 0;
-		right: 0;
 		margin: 0 auto;
-		bottom: 0;
-	}
-
-	.hw-container {
-		height: 400px;
 	}
 
 }
 @media screen and (max-width: 580px) {
 	/*.cover {
 		width: 300px;
-		height: 300px
+		height: 300px;
 	}*/
 	.title {
 		height: 150px;
@@ -571,18 +530,10 @@ a {
 	.gtext h3, .gtext2 h3, {
 		font-size: 14px;
 	}
-	.left1 {
-		height: 400px;
-	}
-	.left {
-		height: 400px;
-	}
+
 	.hweek {
-		margin-top: 0;
+		margin-top: 10%;
 	}
-	/*.hw-text {
-		width: 70%;
-	}*/
 }
 @media screen and (max-width: 500px) {
 	.designtitle {
@@ -592,7 +543,7 @@ a {
 		width: 300px;
 		height: 300px
 	}
-	.ep-left {
+	/*.ep-left {
 		height: 350px;
 	}
 	.right {
@@ -600,54 +551,50 @@ a {
 	}
 	.left1 {
 		height: 300px;
-	}
+	}*/
 
 	.ltlogo {
-		display: block;
-		width: 80%
+		width: 80%;
 	}
 	.site {
 		display: block;
 		width: 80%;
-		margin-left: 10%
+		margin: 0 auto;
 	}
-	.hw-container {
-		height: 500px;
-	}
+
 	.hw {
 		width: 70%;
-		margin-top: 10%;
-
 	}
-
 	.hweek {
-		margin-bottom: 20%;
+		margin-bottom: 0;
 	}
 	.logo {
 		width: 40px;
 	}
-	.sv-left {
-		height: 300px;
+	.g {
+		margin-top: 10%;
 	}
-	
 
-}
-
-@media screen and (max-width: 450px) {
-	.hweek {
-		margin-bottom: 30%;
-	}
 }
 
 @media screen and (max-width: 400px) {
 	.cover {
 		width: 250px;
-		height: 250px
+		height: 250px;
 	}
-	.hweek {
-		margin-bottom: 50%;
+	.g {
+		margin-top: 15%;
 	}
-	.right2 {
-		height: 500px;
+}
+
+@media screen and (max-width: 380px) {
+	.g {
+		margin-top: 20%;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.g {
+		margin-top: 30%;
 	}
 }
