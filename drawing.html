@@ -5,13 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EY | Drawings</title>
 	<link rel="stylesheet" href="drstyles.css" type="text/css" />
+	<link rel="icon" type="image/png" href="logo1-01.png">
 </head>
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
 </style>
 <body>
-	<div class="container">
-		<a href="index.html"><img class="logo" src="logo1-01.png"/></a>
+	<div class="container" onmouseleave="show()">
+		<img class="logo" id="logo" src="logo1-01.png" onmouseenter="hide()"/>
+		<a href="index.html"><img class="logo_i" src="logo-invert.png"/></a>
+
+		<div id="dropdown" class="dropdown">
+			<ul>
+				<li><a href="design.html">design (freelance work)</a></li>
+				<li><a href="illustration.html">illustrations</a></li>
+				<li><a href="drawing.html">drawings</a></li>
+				<li><a href="paintings.html">paintings</a></li>
+				<li><a href="photo.html">photography</a></li>
+			</ul>
+		</div>
 	</div>
 	<div class="title">
 		<img class="designtitle" src="dtitle-07.png"/>
@@ -20,14 +32,17 @@
 		<img class="dimage" src="bust.jpg"/><img class="dimage" src="lips.jpg"/><img class="dimage" src="hair.jpg"/>
 	</div>
 	<div class="prow">
-		<img class="dimage" src="flowers.jpg"/><img class="dimage" src="figure.jpg"/><img class="dimage" src="time.jpg"/>
+		<img class="dimage" src="flowers.jpg"/><img class="dimage" src="figure.jpg"/><img class="dimage" src="head.jpg"/>
 	</div>
 	<div class="prow">
-		<img class="dimage2" src="suit.jpg"/><img class="dimage2" src="magnolia.jpg"/>
+		<div class="a">
+			<img class="dimage3" src="magnolia.jpg"/>
+			<img class="dimage3" src="suit.jpg"/>
+		</div><img class="dimage" src="point.jpg"/>
 	</div>
 	<div class="prow">
 		<img class="dimage2" src="drawing2final.jpg"/><img class="dimage2" src="zipper.jpg"/>
 	</div>
-	
+<script src="main.js"></script>	
 </body>
 </html>

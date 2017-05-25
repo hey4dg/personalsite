@@ -16,16 +16,29 @@
 </style>
 <body>
 
-<div class="container">
-	<img class="logo" src="logo1-01.png" onclick="scrollToTop()"/>
+<div class="container" onmouseleave="show()">
+	<img class="logo" id="logo" src="logo1-01.png" onmouseenter="hide()"/>
+	<img class="logo_i" src="logo-invert.png" onclick="scrollToTop()"/>
+
+	<div id="dropdown" class="dropdown">
+		<ul>
+			<li><a href="design.html">design (freelance work)</a></li>
+			<li><a href="illustration.html">illustrations</a></li>
+			<li><a href="drawing.html">drawings</a></li>
+			<li><a href="paintings.html">paintings</a></li>
+			<li><a href="photo.html">photography</a></li>
+		</ul>
+	</div>
 </div>
+
+
 
 <div class="top-container">
 	<div class = "grey"></div>
 	<img class="ocean" id='ocean' src="hands.gif"/>
 	<img class="polaroid" src="bike.jpg"/>
 	<img class = "hi" src="title-04.png"/>	
-	<h4>DESIGNER / ARTIST / STUDENT</h4>
+	<h4>DESIGNER // ARTIST // STUDENT</h4>
 	<div class="buttons">
 		<div class="box" onclick="scrollDown1()">
 			<p>work</p>
@@ -66,6 +79,12 @@
 			<p class="text2"><a href="paintings.html">PAINTINGS</a></p>
 		</div>
 	</div>
+	<div class="row1-1">
+		<div class="title">
+			<p class="text"><a href="photo.html">35 MM</a></p>
+		</div><div class="images">
+		</div> 
+	</div>
 </div>
 
 <div class="about">
@@ -76,7 +95,7 @@
 				<div class="grey2"></div>
 				<div class="border">
 					<p class="bio-text">
-					I'm currently in my third year at the University of Virginia studying Cognitive Science and Studio Art.
+					I'm currently in my fourth year at the University of Virginia studying Cognitive Science and Studio Art.
 					<br>In addition to painting, drawing, darkroom photography, and visual design, I am passionate about asking questions that don't always have answers and aim to foster an empathetic perspective in my daily life.
 					<br>My favorite medium is a Bic ballpoint pen, and my favorite color changes daily.
 					<br><br>
@@ -84,8 +103,7 @@
 					<br><br>
 					<span class="bold-text">Exhibitions:</span> "100 Artists for Ella Fitzgerald", Newport News Gallery, Virginia, 2017
 					<br><br>
-					<span class="bold-text">Instagram:</span> @eyun.art
-					<br><a href="http://www.redbubble.com/people/emilyyun" target="blank">Interested in buying prints?</a>
+					<span class="bold-text">Instagram:</span> @eyun.art ... <a href="http://www.redbubble.com/people/emilyyun" target="blank"> Interested in buying prints?</a>
 					</p>
 				</div>
 			</div>

@@ -5,14 +5,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EY | Illustrations</title>
 	<link rel="stylesheet" href="istyles.css" type="text/css" />
+	<link rel="icon" type="image/png" href="logo1-01.png">
 </head>
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
 </style>
 <body>
-	<div class="container">
-		<a href="index.html"><img class="logo" src="logo1-01.png"/></a>
+	<div class="container" onmouseleave="show()">
+		<img class="logo" id="logo" src="logo1-01.png" onmouseenter="hide()"/>
+		<a href="index.html"><img class="logo_i" src="logo-invert.png"/></a>
+
+		<div id="dropdown" class="dropdown">
+			<ul>
+				<li><a href="design.html">design (freelance work)</a></li>
+				<li><a href="illustration.html">illustrations</a></li>
+				<li><a href="drawing.html">drawings</a></li>
+				<li><a href="paintings.html">paintings</a></li>
+				<li><a href="photo.html">photography</a></li>
+			</ul>
+		</div>
 	</div>
+	
 	<div class="title">
 		<img class="designtitle" src="dtitle-02.png"/>
 	</div>
@@ -43,5 +56,6 @@
 	<div class="prow">
 		<img class="iimage" src="aboutblank.png"/><img class="iimage" src="404.png"/>
 	</div>
+<script src="main.js"></script>
 </body>
 </html>

@@ -1,5 +1,14 @@
 body {
-	margin: 0 auto;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+meta {
+	display: none;
+}
+
+a {
+	color: #85744f;
 }
 
 .container {
@@ -75,49 +84,42 @@ li {
 .designtitle{
 	display: block;
 	width: 30%;
-	margin: 0 auto;	
-}
-
-.prow, .prow2 {
-	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 80px;
-}
-
-.prow {
-	/*height: 700px;*/
-}
-
-.prow2 {
-	/*height: 350px;*/
-}
-
-.pimage {
-	display: block;
-	width: 50%;
-	margin: 0 auto;
-	vertical-align: top;
 }
 
 /******* MEDIA QUERYS ********/
 
+@media screen and (max-width: 1300px) {
+	.title {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.title {
+		height: 180px;
+	}
+}
 @media screen and (max-width: 900px) {
 	.designtitle {
 		width: 50%;
 	}
+	.title {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 600px) {
+	.title {
+		height: 150px;
+	}
+	
 }
 @media screen and (max-width: 500px) {
 	.designtitle {
 		width: 60%;
 	}
-
 	.logo, .logo_i {
 		width: 40px;
 	}
-}
-@media screen and (max-width: 400px) {
-	.pimage {
-		width: 70%;
-	}
-
 }

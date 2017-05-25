@@ -11,6 +11,29 @@ function scrollDown2() {
 	$('body').animate({ scrollTop: $('.about').offset().top }, 1000);
 }
 
+function hide() {
+	document.getElementById('logo').style.display = 'none';
+	document.getElementById('dropdown').classList.toggle('show');
+}
+
+function show() {
+	document.getElementById('logo').style.display = 'block';
+}
+
+window.onclick = function(event) {
+	if (!event.target.matches('logo')) {
+		var dropdowns = document.getElementsByClassName("dropdown");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			}
+		}
+	}
+}
+
+
 $('.contact-form').submit(function () {
 	var formData = $('.contact-form').serializeArray();
 	var errors = validateForm(formData);
