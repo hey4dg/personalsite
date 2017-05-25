@@ -87,6 +87,11 @@ li {
 	overflow-x:hidden;
 }
 
+.mv {
+	margin-top: 3%;
+	margin-bottom: 10%;
+}
+
 .sv-left, .mv-left {
 	width: 50%;
 	margin: 0 auto;
@@ -112,6 +117,7 @@ li {
 	width: 60%;
 	margin: 0 auto;
 	display: block;
+	vertical-align: top;
 }
 
 .designtitle{
@@ -432,19 +438,19 @@ li {
 		margin: 0 auto;
 	}
 
-	.she {
+	.she, .mia {
 		display: block;
 		width: 50%;
 		margin: 0 auto;
 		margin-top: 5%;
 	}
 
-	.ep {
+	.ep, .mv {
 		display: -webkit-flex;
 	    -webkit-flex-direction: column-reverse;
 	}
 
-	.ep-left, .ep-right {
+	.ep-left, .ep-right, .mv-left, .mv-right {
 		display: block;
 		width: 100%;
 	}
@@ -507,18 +513,18 @@ li {
 	.sv {
 		overflow-x:hidden;
 	}
-	.gtext p, .gtext2 p, .ep-text p, .hw-text p {
+	.gtext p, .gtext2 p, .ep-text p, .hw-text p, .sv-text p, .mv-text p{
 		font-size: 14px;
 	}
 
-	.gtext h1, .gtext2 h1, .ep-text h1, .hw-text h1 {
+	.gtext h1, .gtext2 h1, .ep-text h1, .hw-text h1, .sv-text h1, .mv-text h1 {
 		font-size: 20px;
 
 	}
 	.g {
 		margin-top: 5%;
 	}
-	.gtext h3, .gtext2 h3 {
+	.gtext h3, .gtext2 h3, .sv-text h3, .mv-text h3 {
 		font-size: 16px;
 	}
 
@@ -559,15 +565,15 @@ li {
 	.title {
 		height: 150px;
 	}
-	.gtext p, .gtext2 p, .ep-text p, .hw-text p {
+	.gtext p, .gtext2 p, .ep-text p, .hw-text p, .sv-text p, .mv-text p {
 		font-size: 12px;
 	}
 
-	.gtext h1, .gtext2 h1, .ep-text h1, .hw-text h1 {
+	.gtext h1, .gtext2 h1, .ep-text h1, .hw-text h1, .sv-text h1, .mv-text h1{
 		font-size: 18px;
 	}
 
-	.gtext h3, .gtext2 h3, {
+	.gtext h3, .gtext2 h3, .sv-text h3, .mv-text h3 {
 		font-size: 14px;
 	}
 
