@@ -97,6 +97,16 @@ li {
 	margin-left: 8%;
 }
 
+.copyright {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .9em;
+    padding: 70px 0;
+    font-family: 'Lato', sans-serif;
+    color: #85744f;
+}
+
 /******************************
 
      	  MEDIA QUERYS 
@@ -129,6 +139,10 @@ li {
 	}
 	.logo, .logo_i {
 		width: 40px;
+	}
+	.copyright {
+		font-size: .6em;
+		padding: 40px 0;
 	}
 }
 

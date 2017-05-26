@@ -514,9 +514,15 @@ textarea {
 	font-family: 'Lato', sans-serif;
 }
 
-/*.form_wrapper {
-	overflow-x:hidden;
-}*/
+.copyright {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .9em;
+    padding: 70px 0;
+    font-family: 'Lato', sans-serif;
+    color: #85744f;
+}
 
 /***************************
 
@@ -818,6 +824,10 @@ textarea {
 	}
 	.border {
 		bottom: 0%;
+	}
+	.copyright {
+		font-size: .6em;
+		padding: 40px 0;
 	}
 }
 @media screen and (max-width: 430px) {
