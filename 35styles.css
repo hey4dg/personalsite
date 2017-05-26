@@ -87,31 +87,65 @@ li {
 	margin: 0 auto;
 }
 
-/******* MEDIA QUERYS ********/
-
-@media screen and (max-width: 1300px) {
-	.title {
-		height: 200px;
-	}
+.row {
+	width: 100%;
+	margin: 0 auto;
+	overflow-x: hidden;
+	margin-bottom: 50px;
 }
-@media screen and (max-width: 1100px) {
-	.title {
-		height: 180px;
+
+.image {
+	width: 27%;
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.a {
+	width: 50%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.image1 {
+	width: 25%;
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20%;
+}
+
+.image2 {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	vertical-align: top;
+}
+
+
+/******* MEDIA QUERYS ********/
+@media screen and (max-width: 1000px) {	
+	.image, .image2, .image1 {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 80px;
+	}
+	.row {
+		margin-bottom: 0;
+	}
+	.a {
+		width: 100%;
+		display: block;
+	}
+	.image1 {
+		padding-left: 0;
 	}
 }
 @media screen and (max-width: 900px) {
 	.designtitle {
 		width: 50%;
-	}
-	.title {
-		height: 200px;
-	}
-}
-@media screen and (max-width: 800px) {
-}
-@media screen and (max-width: 600px) {
-	.title {
-		height: 150px;
 	}
 	
 }
@@ -121,5 +155,10 @@ li {
 	}
 	.logo, .logo_i {
 		width: 40px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.image, .image2, .image1 {
+		width: 70%;
 	}
 }

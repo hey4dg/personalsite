@@ -326,6 +326,14 @@ li {
 	margin: 0;
 }
 
+.photo {
+	display: inline-block;
+	width: 30%;
+	margin: 0;
+	margin-left: 10%;
+	vertical-align: top;
+}
+
 .about {
 	max-width: 100%;
 	margin: 0 auto;
@@ -350,15 +358,8 @@ li {
 	padding-bottom: 70px;
 }
 
-/*.photo {
-	width: 30%;
-	padding-left: 200px;
-	display: inline-block;
-}*/
-
 .bio {
 	width: 100%;
-	/*display: inline-block;*/
 	position: relative;
 	height: 450px;
 }
@@ -407,7 +408,6 @@ li {
 	margin: 0 auto;
 	vertical-align: top;
 	padding-top: 5%;
-/*	overflow-x:hidden;*/
 }
 
 .contact-form {
@@ -644,13 +644,6 @@ textarea {
 		margin: 0 auto;
 		bottom: 0;
 	}
-	.photo {
-		width: 50%;
-		display: block;
-		padding-left: 0;
-		margin-left: 25%;
-		margin-top: 20%;
-	}
 	.info {
 		display: -webkit-flex;
 	    -webkit-flex-direction: column-reverse;
@@ -697,9 +690,9 @@ textarea {
 		width: 25%;
 	}
 
-	.typo, .grit, .salz, .half, .space, .hair, .lips, .diptych, .purple {
+	.typo, .grit, .salz, .half, .space, .hair, .lips, .diptych, .purple, .photo {
 		display: block;
-		width: 80%;
+		width: 50%;
 		margin: 0 auto;
 		margin-top: 10px;
 	}
@@ -745,10 +738,6 @@ textarea {
 	.buttons {
 		top: 63%;
 	}
-	.photo {
-		width: 60%;
-		margin-left: 20%;
-	}
 	.grey2 {
 		top: 20%;
 	}
@@ -759,6 +748,12 @@ textarea {
 @media screen and (max-width: 700px) {
 	.polaroid {
 		width: 50%;
+	}
+	.typo, .grit, .salz, .half, .space, .hair, .lips, .diptych, .purple, .photo {
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 10px;
 	}
 }
 @media screen and (max-width: 660px) {
@@ -780,9 +775,6 @@ textarea {
 	.bio {
 		height: 600px;
 	}
-	.yellow4{
-		height: 470px;
-	}
 	.border {
 		bottom: 5%;
 	}
@@ -793,11 +785,7 @@ textarea {
 	}
 	.top-container h4 {
 		font-size: 25px;
-	/*	left: 20%;*/
 		top: 53%;
-	}
-	.yellow4{
-		height: 480px;
 	}
 	.buttons {
 		top: 60%;
@@ -824,10 +812,6 @@ textarea {
 	.bio-text {
 		font-size: 13px;
 	}
-	.yellow4{
-		height: 400px;
-	}
-
 	.contact-form {
 		width: 80%;
 		margin-left: 10%;
@@ -847,12 +831,6 @@ textarea {
 	.polaroid {
 		width: 65%;
 		top: 18%;
-	}
-	.yellow4{
-		height: 460px;
-	}
-	.photo {
-		margin-top: 30%;
 	}
 	.border {
 		padding: 20px;
