@@ -34,7 +34,7 @@ $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
 $mail->Username = "eyundesign@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "gage85.Hay0";
+$mail->Password = "Emo96Hey";
 
 //Set who the message is to be sent from
 $mail->setFrom('eyundesign@gmail.com', 'Website contact form');
