@@ -43,7 +43,7 @@ body {
 
 .dropdown a {
 	display: block;
-	color: #85744f;
+	color: #595959;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .dropdown a:hover {
-	color: #f3f1ee;
+	color: #c9c9c9;
 }
 
 ul {
@@ -74,15 +74,23 @@ li {
 }
 
 .title {
-	height: 250px;
+	text-align: center;
+	font-family: 'lato', sans-serif;
+	font-size: 40px;
+	margin: 0;
+	color: #595959;
+	letter-spacing: .15em;
+	font-weight: 900;
+	margin-top: 2%;
+	margin-bottom: 3%;
 }
-
+/*
 .designtitle{
 	display: block;
 	width: 30%;
 	margin: 0 auto;	
 }
-
+*/
 .prow {
 	width: 100%;
 	margin:0 auto;
@@ -114,9 +122,7 @@ li {
 *******************************/
 
 @media screen and (max-width: 1200px) {
-	.title {
-		height: 200px;
-	}
+	
 }
 @media screen and (max-width: 1100px) {
 	.iimage{
@@ -126,16 +132,10 @@ li {
 	}
 }
 @media screen and (max-width: 900px) {
-	.designtitle {
-		width: 50%;
-	}
 }
 @media screen and (max-width: 500px) {
-	.designtitle {
-		width: 60%;
-	}
 	.title {
-		height: 150px;
+		font-size: 30px;
 	}
 	.logo, .logo_i {
 		width: 40px;

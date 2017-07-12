@@ -37,6 +37,18 @@ a {
 	position: fixed;
 }
 
+.title {
+	text-align: center;
+	font-family: 'lato', sans-serif;
+	font-size: 40px;
+	margin: 0;
+	color: #595959;
+	letter-spacing: .15em;
+	font-weight: 900;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
 .dropdown {
 	display: none;
 	position: absolute;
@@ -51,7 +63,7 @@ a {
 
 .dropdown a {
 	display: block;
-	color: #85744f;
+	color: #595959;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
@@ -61,7 +73,7 @@ a {
 }
 
 .dropdown a:hover {
-	color: #f3f1ee;
+	color: #c9c9c9;
 }
 
 ul {
@@ -120,11 +132,11 @@ li {
 	vertical-align: top;
 }
 
-.designtitle{
+/*.designtitle{
 	display: block;
 	width: 25%;
 	margin: 0 auto;
-}
+}*/
 
 .ep {
 	width: 90%;

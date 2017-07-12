@@ -13,7 +13,7 @@ body {
 	width: 60px;
 	position: absolute;
 	left: 3%;
-	top: 5%;
+	top: 4%;
 	z-index: 10000;
 	position: fixed;
 	cursor: pointer;
@@ -23,7 +23,7 @@ body {
 	width: 60px;
 	position: absolute;
 	left: 3%;
-	top: 5%;
+	top: 4%;
 	z-index: 9000;
 	position: fixed;
 }
@@ -42,7 +42,7 @@ body {
 
 .dropdown a {
 	display: block;
-	color: #85744f;
+	color: #595959;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .dropdown a:hover {
-	color: #f3f1ee;
+	color: #c9c9c9;
 }
 
 ul {
@@ -71,19 +71,22 @@ li {
 .show {
 	display: block;
 }
-.title {
-	height: 250px;
-}
 
-.designtitle{
-	display: block;
-	width: 30%;
-	margin: 0 auto;	
+.title {
+	text-align: center;
+	font-family: 'lato', sans-serif;
+	font-size: 40px;
+	margin: 0;
+	color: #595959;
+	letter-spacing: .15em;
+	font-weight: 300;
+	margin-top: 2%;
+	margin-bottom: 3%;
 }
 
 .dimage {
 	display: inline-block;
-	width: 27%;
+	width: 25%;
 	padding: 10px;
 	margin: 0 auto;
 	vertical-align: top;
@@ -91,7 +94,7 @@ li {
 }
 
 .prow {
-	width: 100%;
+	width: 80%;
 	margin:0 auto;
 	margin-bottom: 50px;
 }
@@ -128,18 +131,13 @@ li {
     color: #85744f;
 }
 
-@media screen and (max-width: 1200px) {
-	.title {
-		height: 200px;
-	}
+@media screen and (max-width: 1124px) {
 	.dimage {
-		width: 25%;
+		width: 22%;
 	}
 }	
-@media screen and (max-width: 1000px) {
-	.title {
-		height: 150px;
-	}
+@media screen and (max-width: 900px) {
+
 	.a {
 		display: block;
 		width: 100%;
@@ -152,21 +150,14 @@ li {
 	}
 }
 @media screen and (max-width: 900px) {
-	.designtitle {
-		width: 50%;
-	}
-	.title {
-		height: 200px;
-	}
+
 }
 @media screen and (max-width: 700px) {
-	.title {
-		height: 150px;
-	}
+	
 }
 @media screen and (max-width: 500px) {
-	.designtitle {
-		width: 60%;
+	.title {
+		font-size: 30px;
 	}
 	.logo, .logo_i {
 		width: 40px;
