@@ -17,6 +17,7 @@ body {
 	z-index: 10000;
 	position: fixed;
 	cursor: pointer;
+	overflow-x: hidden;
 }
 
 .logo_i {
@@ -37,6 +38,7 @@ body {
 	z-index: 100000;
 	position: fixed;
 	background-color: white;
+	overflow-x: hidden;
 }
 
 
@@ -79,32 +81,37 @@ li {
 	margin: 0;
 	color: #595959;
 	letter-spacing: .15em;
-	font-weight: 400;
+	font-weight: 900;
 	margin-top: 2%;
 	margin-bottom: 3%;
+	overflow-x: hidden;
 }
 
 .row {
 	width: 80%;
 	margin: 0 auto;
-	overflow-x: hidden;
+	padding-left: 5%;
+		overflow-x: hidden;
 }
 
 .square {
 	display: inline-block;
 	width: 25%;
 	padding: 35px;
+	overflow-x: hidden;
 }
 
 .dyp {
 	width: 40%;
 	display: inline-block;
 	padding: 25px;
+	overflow-x: hidden;
 }
 .plage {
 	width: 25%;
 	display: inline-block;
 	padding: 25px;
+	overflow-x: hidden;
 }
 
 .comm {
@@ -112,7 +119,26 @@ li {
 	display: inline-block;
 	padding: 25px;
 	vertical-align: top;
-/*	margin-left: 2%;*/
+	overflow-x: hidden;
+}
+
+.a {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.dim {
+	font-family: 'lato', sans-serif;
+	color: #595959;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: .05em;
+	padding-top: 5px;
+	overflow-x: hidden;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .copyright {
@@ -123,14 +149,28 @@ li {
     padding: 70px 0;
     font-family: 'Lato', sans-serif;
     color: #85744f;
+    overflow-x: hidden;
 }
 /******* MEDIA QUERYS ********/
 
-@media screen and (max-width: 900px) {
-	
+@media screen and (max-width: 1050px) {
+	.square {
+		padding: 30px;
+	}
+}
+@media screen and (max-width: 937px) {
+	.row {
+		width: 100%;
+		padding: 0;
+	}
+	.square, .plage, .comm, .dyp {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+		padding: 30px;
+	}
 }
 @media screen and (max-width: 500px) {
-
 	.logo, .logo_i {
 		width: 40px;
 	}
@@ -140,5 +180,9 @@ li {
 	}
 }
 @media screen and (max-width: 400px) {
-
+	.title{
+		font-size: 30px;
+	}
+	.square, .plage, .comm, .dyp {
+		width: 60%;
 }

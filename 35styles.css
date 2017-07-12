@@ -53,7 +53,7 @@ a {
 	display: block;
 	color: #595959;
 	text-decoration: none;
-	font-family: 'Lato', sans-serif;
+	font-family: 'lato', sans-serif;
 }
 
 .container:hover .dropdown {
@@ -98,6 +98,7 @@ li {
 	margin: 0 auto;
 	overflow-x: hidden;
 	margin-bottom: 50px;
+	overflow-y: hidden;
 }
 
 .image {
@@ -120,13 +121,13 @@ li {
     font-size: .9em;
     padding: 70px 0;
     font-family: 'Lato', sans-serif;
-    color: #85744f;
+    color: #595959;
 }
 
 /******* MEDIA QUERYS ********/
 @media screen and (max-width: 1000px) {	
 	.title {
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.image, .image2, .image1 {
 		width: 50%;
@@ -143,19 +144,15 @@ li {
 	}
 }
 @media screen and (max-width: 800px) {
-	.title {
-		font-size: 25px;
-	}
+	
 }
 @media screen and (max-width: 600px) {
 	.title {
-		font-size: 20px;
+		font-size: 30px;
 	}
 }
 @media screen and (max-width: 500px) {
-	.title {
-		font-size: 18px;
-	}
+	
 	.logo, .logo_i {
 		width: 40px;
 	}
@@ -166,7 +163,7 @@ li {
 }
 @media screen and (max-width: 400px) {
 	.title {
-		font-size: 14px;
+		font-size: 20px;
 	}
 	.image, .image2, .image1 {
 		width: 70%;

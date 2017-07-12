@@ -84,25 +84,17 @@ li {
 	margin-top: 2%;
 	margin-bottom: 3%;
 }
-/*
-.designtitle{
-	display: block;
-	width: 30%;
-	margin: 0 auto;	
-}
-*/
 .prow {
-	width: 100%;
-	margin:0 auto;
-	margin-bottom: 10%;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .iimage{
 	display: inline-block;
-	width: 35%;
-	padding: 20px;
+	width: 27%;
+	padding: 30px;
 	vertical-align: top;
-	margin-left: 8%;
+/*	margin-left: 8%;*/
 }
 
 .copyright {
@@ -112,7 +104,7 @@ li {
     font-size: .9em;
     padding: 70px 0;
     font-family: 'Lato', sans-serif;
-    color: #85744f;
+    color: #595959;
 }
 
 /******************************
@@ -121,17 +113,17 @@ li {
 
 *******************************/
 
-@media screen and (max-width: 1200px) {
-	
+@media screen and (max-width: 1183px) {
+	.iimage {
+		width: 25%;
+	}
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
 	.iimage{
 		display: block;
 		width: 50%;
 		margin: 0 auto;
 	}
-}
-@media screen and (max-width: 900px) {
 }
 @media screen and (max-width: 500px) {
 	.title {
@@ -147,6 +139,9 @@ li {
 }
 
 @media screen and (max-width: 400px) {
+	.title {
+		font-size: 20px;
+	}
 	.iimage {
 		width: 80%;
 	}

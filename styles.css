@@ -59,6 +59,7 @@ dark grey: #393939;
 	color: #595959;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 
 .container:hover .dropdown {
@@ -194,6 +195,16 @@ li {
 	letter-spacing: .15em;
 	font-weight: 900;
 	margin-top: 2%;
+}
+
+.portfolio h5 {
+	font-family: 'lato', sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	color: #595959;
+	letter-spacing: .15em;
+	font-weight: 300;
+	text-align: center;
 	margin-bottom: 3%;
 }
 
@@ -258,18 +269,6 @@ li {
 
 .a {
 	width: 100%;
-}
-.click {
-	font-family: 'lato', sans-serif;
-	font-size: 12pt;
-	margin: 0;
-	color: #595959;
-	letter-spacing: .15em;
-	font-weight: 300;
-	position: absolute;
-	top: 67%;
-	left: 25%;
-	text-align: right;
 }
 
 .one:hover .overlay1{
@@ -512,14 +511,14 @@ textarea {
 	.top-container h4 {
 		font-size: 35px;
 	}
-	.polaroid {
-		top: 15%;
-	}
 }
 
 @media screen and (max-width: 1260px) {
 	.top-container h4 {
 		left: 10%;
+	}
+	.border {
+		width: 40%;
 	}
 }
 
@@ -527,15 +526,15 @@ textarea {
 	.top-container h4 {
 		font-size: 30px;
 	}
-	.hi {
+	.name {
 		width: 25%;
 		top: 33%;
 	}
 
-	.row2 {
+	/*.row2 {
 	    display: -webkit-flex;
 	    -webkit-flex-direction: column-reverse;
-	}
+	}*/
 
 	.title {
 		width: 80%;
@@ -549,7 +548,7 @@ textarea {
 		vertical-align: top;
 		display: block;
 	}
-	.text, .text2 {
+	.text {
 		text-align: center;
 	}
 
@@ -558,7 +557,7 @@ textarea {
 	.top-container h4 {
 		top: 47%;
 	}
-	.hi {
+	.name {
 		top: 35%;
 	}
 	.about {
@@ -570,7 +569,7 @@ textarea {
 	}
 }
 @media screen and (max-width: 1000px) {
-	.hi {
+	.name {
 		top: 40%;
 		left: 15%;
 	}
@@ -582,7 +581,7 @@ textarea {
 		left: 22%;
 	}
 
-	.polaroid {
+	.photo {
 		width: 40%;
 		right: 20%;
 	}
@@ -639,7 +638,7 @@ textarea {
 		top: 65%;
 	}
 
-	.polaroid {
+	.photo {
 		left: 0;
 		right: 0;
 		margin: 0 auto;
@@ -649,12 +648,12 @@ textarea {
 		height:500px;
 	}
 	.box {
-		width: 10%;
+		width: 25%;
 		padding-left: 10px;
 		padding-right: 10px;
 		padding-bottom: 10px;
 	}
-	.hi {
+	.name {
 		width: 32%;
 		left: 0;
 		right: 0;
@@ -664,18 +663,13 @@ textarea {
 	.buttons {
 		margin-left: 18%;
 		top: 73%;
-		
 	}
-	.box {
-		width: 25%;
-	}
-
-	.typo, .grit, .salz, .half, .space, .hair, .lips, .diptych, .purple, .photo {
+	.info, .image_wrapper {
 		display: block;
 		width: 50%;
 		margin: 0 auto;
-		margin-top: 10px;
 	}
+
 }
 @media screen and (max-width: 840px) {
 	
@@ -683,11 +677,11 @@ textarea {
 		top: 10%;
 		height: 550px;
 	}
-	.polaroid {
+	.photo {
 		top: 15%;
 		width: 45%;
 	}
-	.hi {
+	.name {
 		width: 35%;
 		top: 45%;
 	}
@@ -708,7 +702,7 @@ textarea {
 		display: block;
 		margin-bottom: 20px;
 	}
-	.hi {
+	.name {
 		top: 45%;
 	}
 
@@ -730,22 +724,16 @@ textarea {
 	}
 }
 @media screen and (max-width: 700px) {
-	.polaroid {
+	.photo {
 		width: 50%;
 	}
-	.typo, .grit, .salz, .half, .space, .hair, .lips, .diptych, .purple, .photo {
-		display: block;
-		width: 70%;
-		margin: 0 auto;
-		margin-top: 10px;
-	}
-	.about {
+	/*.about {
 		height: 650px;
-	}
+	}*/
 
 }
 @media screen and (max-width: 660px) {
-	.hi {
+	.name {
 		width: 45%;
 		top: 40%;
 	}
@@ -753,7 +741,7 @@ textarea {
 		width: 80%;
 		top: 10%;
 	}
-	.polaroid {
+	.photo {
 		width: 50%;
 		top: 15%;
 	}
@@ -768,7 +756,7 @@ textarea {
 	}*/
 }
 @media screen and (max-width: 600px) {
-	.hi {
+	.name {
 		top: 39%;
 	}
 	.top-container h4 {
@@ -778,13 +766,13 @@ textarea {
 	.buttons {
 		top: 60%;
 	}
-	.about {
+	/*.about {
 		height: 670px;
-	}
+	}*/
 
 }
 @media screen and (max-width: 500px) {
-	.hi {
+	.name {
 		width: 50%;
 		top: 40%;
 	}
@@ -795,7 +783,7 @@ textarea {
 	.bio {
 		height: 500px;
 	}*/
-	.polaroid {
+	.photo {
 		width: 60%;
 	}
 	.top-container h4 {
@@ -820,11 +808,11 @@ textarea {
 	.top-container h4 {
 		top: 53%;
 	}
-	.hi {
+	.name {
 		width: 60%;
 		top: 41%;
 	}
-	.polaroid {
+	.photo {
 		width: 65%;
 		top: 18%;
 	}
@@ -847,7 +835,7 @@ textarea {
 	.grey {
 		top: 5%;
 	}
-	.polaroid {
+	.photo {
 		width: 65%;
 		top: 10%;
 	}
@@ -855,14 +843,14 @@ textarea {
 		top: 50%;
 		font-size: 20px;
 	}
-	.hi {
+	.name {
 		top: 35%;
 	}
 }
 
 
 @media screen and (max-width: 320px) {
-	.hi {
+	.name {
 		width: 70%;
 	}
 	.top-container h4 {
