@@ -293,9 +293,26 @@ li {
 	font-size: 12px;
 	font-family: 'lato', sans-serif;
 	letter-spacing: .15em;
-	position: absolute;
-	top: 50%;
-	left: 38%;
+	text-align: center;
+	padding-top: 30%;
+}
+
+.row_mobile {
+	width: 80%;
+	margin: 0 auto;
+	display: none;
+	margin-top: 5%;
+}
+
+.onew, .twow, .threew, .fourw, .fivew {
+	position: relative;
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15%;
+}
+.b {
+	width: 100%;
 }
 
 .about {
@@ -304,7 +321,6 @@ li {
 	background-color: white;
 	overflow-x:hidden;
 	overflow-y: hidden;
-/*	height:100vh;*/
 }
 .about h1{
 	margin-bottom: 5%;
@@ -422,6 +438,57 @@ li {
 		right: 22%;
 		top: 13%;
 	}	
+
+/*	.container1 {
+		left: 7%;
+		top: 0;
+		width: 25%;
+	}
+
+	.container2 {
+		left: 36%;
+		top: 0;
+		width: 27%;
+	}
+
+	.container3 {
+		right: 10%;
+		top: 0;
+		width: 20%;
+	}
+*/
+	.container4 {
+		top: 30%;
+		/*left: 36%;
+		width: 27%;*/
+	}
+
+	.container5 {
+		bottom: 30%;
+		/*right: 8%;
+		width: 25%;*/
+	}
+	/*.medium {
+		color: white;
+		font-size: 12px;
+		font-family: 'lato', sans-serif;
+		letter-spacing: .15em;
+		text-align: center;
+		padding-top: 30%;
+	}*/
+}
+@media screen and (max-width: 1150px) {
+	.container4 {
+		top: 25%;
+		/*left: 36%;
+		width: 27%;*/
+	}
+
+	.container5 {
+		bottom: 35%;
+		/*right: 8%;
+		width: 25%;*/
+	}
 }
 
 @media screen and (max-width: 1100px) {
@@ -431,6 +498,11 @@ li {
 	.name {
 		top: 33%;
 	}
+
+	.container5 {
+		bottom: 40%;
+	}
+
 	.row2 {
 		width: 100%;
 		margin: 0 auto;
@@ -507,6 +579,9 @@ li {
 		margin-left: 33%;
 		top: 60%;
 	}
+	.container5 {
+		bottom: 45%;
+	}
 
 }
 @media screen and (max-width: 900px) {
@@ -518,6 +593,13 @@ li {
 	.top-container h4 {
 		font-size: 30px;
 		top: 50%;
+	}
+	.container4 {
+		top: 20%;
+	}
+
+	.container5 {
+		bottom: 50%;
 	}
 
 	.photo {
@@ -545,14 +627,6 @@ li {
 	}
 
 }
-@media screen and (max-width: 840px) {
-	
-	.photo {
-		/*top: 15%;
-		width: 45%;*/
-	}
-
-}
 @media screen and (max-width: 800px) {
 	
 	.name {
@@ -564,6 +638,16 @@ li {
 	.bio-text{
 		font-size: 12px;
 	}
+	.row{
+		display: none;
+	}
+	.row_mobile {
+		display: block
+	}
+	.about {
+		margin-top: 5%;
+	}
+
 }
 @media screen and (max-width: 700px) {
 	.social_media{
@@ -591,9 +675,6 @@ li {
 	.grey2 {
 		height: 350px;
 	}
-}
-@media screen and (max-width: 600px) {
-
 }
 @media screen and (max-width: 500px) {
 	.gif {
@@ -634,7 +715,7 @@ li {
 	.border {
 		padding: 15px;
 	}
-	
+
 	.top-container h4 {
 		top: 50%;
 		width: 80%;
@@ -657,6 +738,9 @@ li {
 	.portfolio h1, .about h1 {
 		font-size: 30px;
 	}
+	.about {
+		margin-top: 5%;
+	}
 
 }
 
@@ -668,6 +752,7 @@ li {
 		height: 350px;
 		width: 100%;
 	}
+
 }
 
 
