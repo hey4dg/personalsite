@@ -22,7 +22,7 @@ a {
 	width: 60px;
 	position: absolute;
 	left: 3%;
-	top: 3%;
+	top: 5%;
 	z-index: 10000;
 	position: fixed;
 	cursor: pointer;
@@ -32,7 +32,7 @@ a {
 	width: 60px;
 	position: absolute;
 	left: 3%;
-	top: 3%;
+	top: 5%;
 	z-index: 9000;
 	position: fixed;
 }
