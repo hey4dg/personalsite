@@ -102,9 +102,10 @@ li {
 	display: inline-block;
 	width: 33.333%;
 	margin: 0 auto;
+	vertical-align: top;
 }
 
-.div, .poster, .pick, .she, .laurie, .mia {
+.div, .poster, .pick, .she, .laurie, .mia, .sg, .hoots {
 	position: relative;
 	width: 70%;
 	padding: 20px;
@@ -117,7 +118,7 @@ li {
 	width: 60%;
 }
 
-.div {
+.div, .sg, .hoots {
 	width: 80%;
 }
 
@@ -126,7 +127,12 @@ li {
 	margin: 0 auto;
 }
 
-.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6 {
+.div img, .sg img, .hoots img {
+	border: 2px solid #c9c9c9;
+	padding: 5px;
+}
+
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8 {
 	position: absolute;
 	top:0;
 	bottom: 0;
@@ -157,16 +163,23 @@ li {
 .laurie:hover .overlay6{
 	opacity: 1;
 }
+.sg:hover .overlay7{
+	opacity: 1;
+}
+.hoots:hover .overlay8{
+	opacity: 1;
+}
+
 
 .text {
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
 	color: white;
 	font-size: 14px;
 	font-family: 'lato', sans-serif;
 	letter-spacing: .1em;
 	line-height: 1.5em;
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 .copyright {
@@ -195,7 +208,7 @@ li {
 		width: 40%;
 		margin: 0 auto;
 	}
-	.div, .poster, .pick, .she, .laurie, .mia{
+	.div, .poster, .pick, .she, .laurie, .mia, .sg, .hoots{
 		width: 100%;
 	}
 	.text{
