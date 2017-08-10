@@ -84,18 +84,30 @@ li {
 	margin-top: 2%;
 	margin-bottom: 3%;
 }
-.prow {
+.row {
 	width: 80%;
 	margin: 0 auto;
 }
 
-.iimage{
+.column {
 	display: inline-block;
-	width: 27%;
-	padding: 30px;
+	width: 33.333%;
+	margin: 0 auto;
 	vertical-align: top;
-/*	margin-left: 8%;*/
 }
+
+.iimage{
+	width: 75%;
+	padding: 40px;
+	vertical-align: top;
+	display: block;
+	margin: 0 auto;
+}
+
+/*.image {
+	width: 100%;
+	margin: 0 auto;
+}*/
 
 .copyright {
     width: 90%;
@@ -114,15 +126,20 @@ li {
 *******************************/
 
 @media screen and (max-width: 1183px) {
-	.iimage {
-		width: 25%;
-	}
+	
 }
 @media screen and (max-width: 900px) {
-	.iimage{
+	.column {
 		display: block;
-		width: 50%;
+		width: 60%;
 		margin: 0 auto;
+	}
+	.iimage {
+		width: 100%;
+		padding: 20px 0;
+	}
+	.title {
+		font-size: 35px;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -136,13 +153,16 @@ li {
 		font-size: .6em;
 		padding: 40px 0;
 	}
+	.column {
+		width: 60%;
+	}
 }
 
 @media screen and (max-width: 400px) {
 	.title {
 		font-size: 20px;
 	}
-	.iimage {
+	/*.iimage {
 		width: 80%;
-	}
+	}*/
 }
