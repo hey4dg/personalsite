@@ -195,8 +195,14 @@ li {
 /******************************
            MEDIA QUERYS 
 *******************************/
+@media screen and (max-width: 1304px) {
+	.text{
+		width: 85%;
+		font-size: 12px;
+	}
+}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1240px) {
 	.text{
 		font-size: 12px;
 	}

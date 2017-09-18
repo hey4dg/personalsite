@@ -96,18 +96,13 @@ li {
 	vertical-align: top;
 }
 
-.iimage{
+.iimage {
 	width: 75%;
 	padding: 40px;
 	vertical-align: top;
 	display: block;
 	margin: 0 auto;
 }
-
-/*.image {
-	width: 100%;
-	margin: 0 auto;
-}*/
 
 .copyright {
     width: 90%;
@@ -124,10 +119,6 @@ li {
      	  MEDIA QUERYS 
 
 *******************************/
-
-@media screen and (max-width: 1183px) {
-	
-}
 @media screen and (max-width: 900px) {
 	.column {
 		display: block;
@@ -153,16 +144,10 @@ li {
 		font-size: .6em;
 		padding: 40px 0;
 	}
-	.column {
-		width: 60%;
-	}
 }
 
 @media screen and (max-width: 400px) {
 	.title {
 		font-size: 20px;
 	}
-	/*.iimage {
-		width: 80%;
-	}*/
 }
