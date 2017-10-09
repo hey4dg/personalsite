@@ -1,129 +1,125 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html> 
 <head> 
 	<meta charset="UTF-8" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Emily Yun | Portfolio</title>
-	<link rel="stylesheet" href="styles.css" type="text/css" />
-	<link rel="icon" type="image/png" href="https://image.ibb.co/mLmbfQ/favicon_01.png">
+	<link rel="stylesheet" href="CSS/styles.css" type="text/css" />
+	<link rel="icon" type="image/png" href="https://image.ibb.co/e3p0gG/favicon_03.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 </style>
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900');
 </style>
 <body>
 
-<div class="container" onmouseleave="show()">
-	<img class="logo" id="logo" src="https://image.ibb.co/j8pwfQ/favicon_02.png" onmouseenter="hide()"/>
-	<img class="logo_i" src="https://image.ibb.co/mLmbfQ/favicon_01.png" onclick="scrollToTop()"/>
-
-	<div id="dropdown" class="dropdown">
-		<ul>
-			<li><a href="design.html">design</a></li>
-			<li><a href="illustration.html">illustrations</a></li>
-			<li><a href="drawing.html">drawings</a></li>
-			<li><a href="paintings.html">paintings</a></li>
-			<li><a href="photo.html">photography</a></li>
+<div class="container">
+	<div class="navhover">
+		<img class="logo" id="logo" src="http://image.ibb.co/cbXFyw/favicon_grey_03.png" onclick="scrollToTop()"/> 
+		<ul id="dropdown" class="dropdown">
+			<li><a href="index.html#design" onclick="scrollDes()">DESIGN</a></li>
+			<li><a href="index.html#art" onclick="scrollArt()">ART</a></li>
+			<li><a href="index.html#about" onclick="scrollDown2()">ABOUT</a></li>
 		</ul>
 	</div>
 </div>
 
 
-
 <div class="top-container">
 	<div class = "grey"></div>
-	<img class="gif" id='gif' src="https://image.ibb.co/ktHKCv/hand.gif"/>
-	<img class = "name" src="https://image.ibb.co/eqZuea/name_name.png"/>	
-	<h4>DESIGNER / ARTIST / STUDENT</h4>
+	<img class="gif" id='gif' src="https://image.ibb.co/nuG2vb/hand_black.gif"/>
+	<div class="name">HAYOUNG<br>EMILY YUN</div>
+	<div class="sansbr">HAYOUNG EMILY YUN</div>
+	<h4>artist, designer<br>& homo sapien</h4>
+	<div class="sansbr h4">artist, designer, homo sapien</div>
 	<div class="buttons">
-		<div class="box" onclick="scrollDown1()">
-			<p>work</p>
-		</div><div class="box" onclick="scrollDown2()">
-			<p>about</p>
-		</div>
+		<a href="index.html#design"><div class="box" id="b1"  onclick="scrollDown1()"><p>work</p>
+		</div></a><a href="index.html#about"><div class="box" id="b2"  onclick="scrollDown2()"><p>about</p>
+		</div></a>
 	</div>
 </div>
 
-<div class="portfolio">
-	<h1>WORK</h1>
-	<h5><br>&#40click images for more&#41</h5>
+<div class="design" id="design">
+	<h1>USER EXPERIENCE AND<br>USER INTERFACE DESIGN</h1>
+	
 	<div class="row">
-		
-		<a href="drawing.html"><div class="container1">
-		<div class="one">
-			<img class="a" src="https://image.ibb.co/kopDFv/hair.jpg"/>
-			<div class="overlay1">
-				<div class="medium">drawings</div>
+		<a href="ga.html"><div class="d">
+			<div class="ux">
+				<img class="a" src=""/>
+				<div class="overlay1">
+					<div class="project">UX Case Study<br>(Coming Soon)</div>
+				</div>
 			</div>
-		</div>
-		</div></a>
-
-		<a href="photo.html"><div class="container2">
-			<div class="two">
-				<img class="a" src="https://image.ibb.co/maHEoF/kitchen.jpg"/>
+		</div></a><a href="division.html"><div class="d">
+			<div class="division">
+				<img class="a" src="http://image.ibb.co/iyX9Qb/dhome.png"/>
 				<div class="overlay2">
-					<div class="medium">photography</div>
-				</div>
-			</div>
-		</div></a>
-
-		<a href="illustration.html"><div class="container3">
-			<div class="three">
-				<img class="a" src="https://image.ibb.co/ktvENa/salzburg.png"/>
-				<div class="overlay3">
-					<div class="medium">illustrations</div>
-				</div>
-			</div>
-		</div></a>
-
-		<a href="paintings.html"><div class="container4">
-			<div class="four">
-				<img class="a" src="https://image.ibb.co/bCcrQF/whiteline.jpg"/>
-				<div class="overlay4">
-					<div class="medium">paintings</div>
-				</div>
-			</div>
-		</div></a>
-
-		<a href="design.html"><div class="container5">
-			<div class="five">
-				<img class="a" src="https://image.ibb.co/frWJFv/div.png"/>
-				<div class="overlay5">
-					<div class="medium">design</div>
+					<div class="project">Division 1-on-1</div>
 				</div>
 			</div>
 		</div></a>
 	</div>
 
-	<div class="row_mobile">
-		<a href="drawing.html"><div class="onew">
-			<img class="b" src="https://image.ibb.co/kopDFv/hair.jpg"/>
-		</div></a>
-
-		<a href="photo.html"><div class="twow">
-				<img class="b" src="https://image.ibb.co/maHEoF/kitchen.jpg"/>
-
-		</div></a>
-
-		<a href="illustration.html"><div class="threew">
-				<img class="b" src="https://image.ibb.co/ktvENa/salzburg.png"/>
-		</div></a>
-
-		<a href="paintings.html"><div class="fourw">
-				<img class="b" src="https://image.ibb.co/bCcrQF/whiteline.jpg"/>
-		</div></a>
-
-		<a href="design.html"><div class="fivew">
-				<img class="b" src="https://image.ibb.co/frWJFv/div.png"/>
-
+	<div class="row">
+		<a href="hoots.html"><div class="d">
+			<div class="hoot">
+				<img class="a" src="http://image.ibb.co/kbXnBG/hhome.png"/>
+				<div class="overlay2">
+					<div class="project">Hoots Tutoring</div>
+				</div>
+			</div>
+		</div></a><a href="sg.html"><div class="d">
+			<div class="sg">
+				<img class="a" src="http://image.ibb.co/jsnb5b/sg.png"/>
+				<div class="overlay3">
+					<div class="project">Special Guest Book</div>
+				</div>
+			</div>
 		</div></a>
 	</div>
 </div>
 
-<div class="about">
+<div class="process" id="process">
+	<h1>PROCESS</h1>
+	<div class="row">
+		<div class="pro">
+			My design process is fueled by my empathy for users. With simplicity in mind, all designs I create are easy to use and responsive across all interfaces.
+		</div>
+	</div>
+</div>
+
+<div class="art" id="art">
+	<h1>ART</h1>
+	<div class="row">
+		<a href="photo.html"><div class="medium one">
+			<div class="photo">
+				<img class="a" src="https://image.ibb.co/maHEoF/kitchen.jpg"/>
+				<div class="overlay3">
+					<div class="lower_title1">photography</div>
+				</div>
+			</div>
+		</div></a><a href="illustration.html"><div class="medium two">
+			<div class="ill">
+				<img class="a" src="https://image.ibb.co/ktvENa/salzburg.png"/>
+				<div class="overlay4">
+					<div class="lower_title0">illustrations</div>
+				</div>
+			</div>
+		</div></a><a href="paintings.html"><div class="medium three">
+			<div class="paint">
+				<img class="a" src="https://image.ibb.co/bCcrQF/whiteline.jpg"/>
+				<div class="overlay5">
+					<div class="lower_title">paintings</div>
+				</div>
+			</div>
+		</div></a>
+	</div>
+</div>
+
+<div class="about" id="about">
 	<h1>ABOUT</h1>
 		<div class="row2">
 			<div class="info">
@@ -131,60 +127,33 @@
 				<div class="border">
 					<p class="bio-text">
 					I'm currently in my fourth year at the University of Virginia studying Cognitive Science and Studio Art.
-					<br>In addition to painting, drawing, darkroom photography, and visual design, I am passionate about asking questions that don't always have answers and aim to foster an empathetic perspective in my daily life.
-					<br>My favorite medium is a Bic ballpoint pen, and my favorite color changes daily.
+					<br>In addition to painting, drawing, film photography, and UX/UI design, I am passionate about living an authentic and eccentric life filled with asking questions that don't always have answers. My favorite medium is a Bic ballpoint pen, and my favorite color changes daily.
 					<br><br>
-					<span class="bold-text">TECHNICAL SKILLS:</span> proficiency in Java, HTML, CSS, and JavaScript; fluency in wireframing and Adobe Creative Cloud (InDesign, Photoshop, Illustrator).
+					<span class="bold-text">TECHNICAL SKILLS:</span> Proficiency in Java and JavaScript, Adobe Premiere Pro; Fluency in HTML, CSS, Wireframing, Sketch, InVision,  Adobe Creative Cloud (InDesign, Photoshop, Illustrator, Experience Design).
 					<br><br>
 					<span class="bold-text">EXHIBITIONS:</span> "100 Artists for Ella Fitzgerald", Newport News Gallery, Virginia, 2017
-					<br><br>
-					<span class="bold-text">EMAIL:</span> hey4dg@virginia.edu<br>
 					</p>
 				</div>
 			</div><div class="image_wrapper">
-				<img class="photo" src="https://image.ibb.co/j1zPNa/bike.jpg"/>
-				<div class="social_media">
-					<a href="https://www.instagram.com/eyun.art/" target="blank">
-						<img src="https://image.ibb.co/fP0vkF/ig.png"/>
-					</a><a href="https://www.redbubble.com/people/emilyyun" target="blank">
-						<img src="https://image.ibb.co/c450Ka/rb.png"/>
-					</a><a href="https://www.linkedin.com/in/emily-yun-25b1a5128/" target="blank">
-						<img src="https://image.ibb.co/etVpCv/linkedin.png"/>
-					</a><a href="https://github.com/hey4dg?tab=repositories" target="blank">
-						<img src="https://image.ibb.co/bsPcza/gh.png"/>
-					</a>
-				</div>
+				<img class="self" src="https://image.ibb.co/j1zPNa/bike.jpg"/>
 			</div>
 		</div>
 </div>
-<!-- </div><div class="contact_wrapper" style="visibility: visible;">
-			<div class="form_wrapper">
-				<form class="contact-form" name="contact-form" method="post" action="send_form_email.php">
-						<h1>CONTACT</h1>
-						<div class="form_errors"></div>
-						<div class="name">Name</div>
-							<input type="text" name="name"><br>
-						<div class="contact-section">
-						<div class="email">Email</div>
-							<input class="first-input" type="text" name="email"><br>
-						</div><div class="contact-section">
-							<div class="phone">Phone</div>
-								<input type="text" name="phone"><br>
-						</div>
-						<div class="message">Message</div>
-							<textarea name="message" placeholder="What can I help you with?"></textarea><br>
-						<input type="submit" value="submit">
-					</form>
-				</div>
-			<div class="message_sent">
-					<img class="msent" src="https://image.ibb.co/iv678F/msent.png"/>
-					<h1 class="sent">Thanks! I'll be in touch.</h1>
-			</div>
-		</div>
-	</div>
-</div>
- -->
+
 <div class="copyright">
+	<div class="social_media">
+		<a href="mailto:hey4dg@virginia.edu" target="blank">
+			<img src="http://image.ibb.co/mBOKab/mail_3.png"/>
+		</a><a href="https://www.linkedin.com/in/emily-yun-25b1a5128/" target="blank">
+			<img src="https://image.ibb.co/etVpCv/linkedin.png"/>
+		</a><a href="https://github.com/hey4dg?tab=repositories" target="blank">
+			<img src="https://image.ibb.co/bsPcza/gh.png"/>
+		</a><a href="https://www.instagram.com/eyun.art/" target="blank">
+			<img src="https://image.ibb.co/fP0vkF/ig.png"/>
+		</a><a href="https://www.redbubble.com/people/emilyyun" target="blank">
+			<img src="https://image.ibb.co/c450Ka/rb.png"/>
+		</a>
+	</div>
 	Copyright © H. Emily Yun. 2017 All Rights Reserved.
 </div>
 
@@ -192,6 +161,5 @@
 
 </body>
 </html>
-
 
 
