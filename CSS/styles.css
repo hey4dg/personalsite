@@ -397,7 +397,7 @@ dark grey: #393939;
 
 .process {
 	display: block;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto
 	height: 45vh;
 	padding-top: 8%;
@@ -409,12 +409,11 @@ dark grey: #393939;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	padding: 80px 0 40px 300px;
+	padding: 80px 0px 40px 0px;
 	font-family: 'Work Sans', sans-serif;
 	color: #797979;
 	font-size: 20px;
 	font-weight: 400;
-	margin: 0;
 	line-height: 1.5;
 	letter-spacing: .03em;
 }
@@ -568,9 +567,6 @@ dark grey: #393939;
 	}
 
 	.pro {
-		width: 100%;
-		text-align: center;
-		padding: 80px 0 40px 0px;
 		font-size: 20px;
 		line-height: 1.5;
 		letter-spacing: .03em;
