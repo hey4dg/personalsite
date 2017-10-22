@@ -34,8 +34,8 @@ $(window).scroll(function() {
 	var art = document.getElementById('#art');
 	var abo = document.getElementById('#about');
 
-	if ($(window).scrollTop() >= des - 15) {
-		$('.design').css('visibility', 'visible').hide().fadeIn(1150);
+	if ($(window).scrollTop() >= des) {
+		$('.design').css('visibility', 'visible').hide().fadeIn(100);
 		// $(this).off('scroll');
 	}
 
