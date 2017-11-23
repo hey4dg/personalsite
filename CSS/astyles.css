@@ -123,11 +123,24 @@ ul {
 }
 
 .a {
-	width: 75%;
-	padding: 40px;
+	width: 100%;
 	vertical-align: top;
 	display: block;
 	margin: 0 auto;
+}
+
+.p {
+	width: 100%;
+	padding: 40px;
+	vertical-align: top;
+	margin: 0 auto;
+}
+
+.com, .dip, .plage, .white, .cul, .purp, .blue {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	display: block;
 }
 
 .overlay1, .overlay2, .overlay3{
@@ -141,6 +154,63 @@ ul {
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #f3f1ee;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.p1 {
+	background-color: #6683F4;
+}
+.p2 {
+	background-color: #5C76DA;
+}
+.p3 {
+	background-color: #4C61B4;
+}
+.p4 {
+	background-color: #313F74;
+}
+.p5 {
+	background-color: #161C35;
+}
+.p6 {
+	background-color: #313F74;
+}
+.p7 {
+	background-color: #161C35;
+}
+
+
+.com:hover .p1{
+	opacity: 1;
+}
+.dip:hover .p2{
+	opacity: 1;
+}
+.plage:hover .p3{
+	opacity: 1;
+}
+.white:hover .p4{
+	opacity: 1;
+}
+.cul:hover .p5{
+	opacity: 1;
+}
+.purp:hover .p6{
+	opacity: 1;
+}
+.blue:hover .p7{
+	opacity: 1;
 }
 
 .text {
@@ -165,19 +235,15 @@ ul {
 	opacity: 1;
 }
 
-.dim {
+.project {
+	color: white;
+	font-size: 12px;
 	font-family: 'lato', sans-serif;
-	color: #595959;
-	font-size: 10px;
-	font-weight: 400;
+	letter-spacing: .15em;
 	text-align: center;
-	line-height: 1.5;
-	letter-spacing: .05em;
-	padding-top: 5px;
-	overflow-x: hidden;
-	width: 100%;
-	margin: 0 auto;
+	padding-top: 15%;
 }
+
 .row35 {
 	width: 80%;
 	margin: 0 auto;
@@ -239,6 +305,9 @@ ul {
 	}
 	.row35 {
 		margin-bottom: 0;
+	}
+	.p {
+		padding: 0;
 	}
 }
 @media screen and (max-width: 900px) {

@@ -88,11 +88,12 @@ ul {
 .text{
 	display: inline-block;
 	width: 50%;
+	padding-bottom: 10px;
 }
 
 .text a {
 	color: #000000;
-}
+} 
 
 .text h1 {
 	font-family: 'Work Sans', sans-serif;
@@ -118,6 +119,32 @@ ul {
 	padding-right: 50px;
 }
 
+.mb {
+	width: 80%;
+}
+
+.fullt h1{
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.7;
+	letter-spacing: .02em;
+	z-index: 101;
+}
+
+.fullt h3 {
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.7;
+	letter-spacing: .04em;
+	z-index: 101;
+}
+
 .bold {
 	font-weight: 900;
 	letter-spacing: .07em;
@@ -132,6 +159,11 @@ ul {
 	padding-bottom: 0;
 	vertical-align: bottom;
 }
+
+.logomb {
+	width: 20%;
+}
+
 
 .display {
 	position: relative;
@@ -154,6 +186,13 @@ ul {
 .full {
 	display: block;
 	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 5%;
+}
+.fullt {
+	display: block;
+	width: 85%;
 	margin: 0 auto;
 	padding: 20px;
 	margin-top: 5%;
@@ -224,6 +263,18 @@ ul {
 	letter-spacing: .03em;
 	text-align: right;
 	margin-top: 3%;
+}
+
+.cap {
+	font-family: 'Work Sans', sans-serif;
+	color: #191919;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1.5;
+	letter-spacing: .03em;
+	text-align: right;
+	margin-bottom: 3%;
 }
 
 .copyright {
@@ -321,7 +372,14 @@ ul {
 		letter-spacing: .07em;
 		font-size: 24px;
 	}
+	.switch {
+		display: -webkit-flex;
+	    -webkit-flex-direction: column-reverse;
+	}
 
+	.m h3 {
+		padding-top: 5%;
+	}
 }
 @media screen and (max-width: 1050px) {
 	.third {
@@ -360,6 +418,20 @@ ul {
 	}
 	.text {
 		width: 80%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.fullt h1{
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 1.5;
+		letter-spacing: .02em;
+	}
+	.fullt h3 {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 1.4;
+		letter-spacing: .02em;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -460,7 +532,18 @@ ul {
 		width: 20px;
 		height: 20px;
 	}
-
+	.fullt h1{
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 1.5;
+		letter-spacing: .02em;
+	}
+	.fullt h3 {
+		font-size: 16px;
+		color: #595959;		
+		line-height: 1.4;
+		letter-spacing: .02em;
+	}
 }
 
 @media screen and (max-width: 400px) {

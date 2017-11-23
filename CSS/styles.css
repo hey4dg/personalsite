@@ -287,6 +287,12 @@ dark grey: #393939;
 	width: 100%;
 }
 
+.small {
+	width: 50%;
+	padding-left: 25%;
+	padding-top: 5%;
+}
+
 .medium {
 	width: 30%;
 	display: inline-block;
@@ -317,10 +323,6 @@ dark grey: #393939;
 
 .photo, .paint {
 	border: none;
-}
-
-.ux {
-	height: 260px;
 }
 
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5 {
@@ -398,8 +400,7 @@ dark grey: #393939;
 .process {
 	display: block;
 	width: 100%;
-	margin: 0 auto
-	height: 45vh;
+	margin: 0 auto;
 	padding-top: 8%;
 	overflow-x: hidden;
 }
@@ -671,6 +672,9 @@ dark grey: #393939;
 		width: 85%;
 		display: block;
 	}
+	.medium {
+		padding-left: 0;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -689,6 +693,9 @@ dark grey: #393939;
 	}
 	.gif {
 		top: 13%;
+	}
+	.pro {
+		width: 75%;
 	}
 }
 
@@ -727,6 +734,9 @@ dark grey: #393939;
 	}
 	.pro {
 		font-size: 18px;
+	}
+	.pro {
+		width: 80%;
 	}
 	.border {
 		width: 80%;
@@ -901,9 +911,6 @@ dark grey: #393939;
 }
 
 @media screen and (max-width: 400px) {
-	.pro {
-		font-size: 14px;
-	}
 	.social_media img {
 		margin-left: 7px;
 		margin-right: 7px;
@@ -943,6 +950,10 @@ dark grey: #393939;
 	}
 	.info {
 		height: 500px;
+	}
+	.pro {
+		font-size: 13px;
+		width: 65%;
 	}
 }
 
