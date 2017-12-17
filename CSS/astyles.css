@@ -132,11 +132,13 @@ ul {
 .p {
 	width: 100%;
 	padding: 40px;
+	padding-left: 0;
+	padding-right: 0;
 	vertical-align: top;
 	margin: 0 auto;
 }
 
-.com, .dip, .plage, .white, .cul, .purp, .blue {
+.com, .dip, .plage, .white, .cul, .purp, .blue, .bluedip, .house, .cure, .aid, .purpline, .begin {
 	position: relative;
 	width: 80%;
 	margin: 0 auto;
@@ -156,7 +158,7 @@ ul {
 	background-color: #f3f1ee;
 }
 
-.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13 {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -168,25 +170,19 @@ ul {
 	transition: .5s ease;
 }
 
-.p1 {
+.p1, .p3, .p6 {
 	background-color: #6683F4;
 }
-.p2 {
+.p2, .p4, .p7 {
 	background-color: #5C76DA;
 }
-.p3 {
+.p9, .p5, .p8 {
 	background-color: #4C61B4;
 }
-.p4 {
+.p12, .p10, .p11 {
 	background-color: #313F74;
 }
-.p5 {
-	background-color: #161C35;
-}
-.p6 {
-	background-color: #313F74;
-}
-.p7 {
+.p13 {
 	background-color: #161C35;
 }
 
@@ -210,6 +206,24 @@ ul {
 	opacity: 1;
 }
 .blue:hover .p7{
+	opacity: 1;
+}
+.bluedip:hover .p8 {
+	opacity: 1;
+}
+.house:hover .p9 {
+	opacity: 1;
+}
+.cure:hover .p10 {
+	opacity: 1;
+}
+.aid:hover .p11 {
+	opacity: 1;
+}
+.purpline:hover .p12 {
+	opacity: 1;
+}
+.begin:hover .p13{
 	opacity: 1;
 }
 
