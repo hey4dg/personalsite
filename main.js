@@ -2,12 +2,6 @@ function scrollToTop() {
 	$('html, body').animate({ scrollTop: $('.top-container').offset().top }, 1500);
 }
 
-// $('.logo').hover(function() {
-// 	$('.navhover').children('ul').stop(true, false, true).fade();
-// 	$('.logo').hover(function(e) {
-//       	e.stopPropagation()});
-// });
-
 function scrollDown1() {
 	$('html, body').animate({ scrollTop: $('.design').offset().top }, 1000);
 }
@@ -24,16 +18,6 @@ function scrollDes() {
 function scrollArt() {
 	$('html, body').animate({ scrollTop: $('.art').offset().top }, 1000);
 }
-
-// function process() {
-// 	$('html, body').animate({ scrollTop: $('proc').offset().top }, 1000);
-// 	var target = $(this.getAttribute('href'))
-// 	 $('html, body').stop().animate({
-//             scrollTop: target.offset().top
-//         }, 1000);
-// 		// $('html, body').animate({ scrollTop: $('#proc').offset().top }, 1000);
-// 	}
-// }
 
 $(document).ready(function() {
 	$(".pro").click(function() {
