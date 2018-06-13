@@ -138,7 +138,7 @@ ul {
 	margin: 0 auto;
 }
 
-.com, .dip, .plage, .white, .cul, .purp, .blue, .bluedip, .house, .cure, .aid, .purpline, .begin {
+.com, .dip, .plage, .white, .cul, .purp, .void, .bluedip, .paige, .cure, .aid, .purpline, .begin, .landscape, .jenna, .sero, .wyatt, .allie {
 	position: relative;
 	width: 80%;
 	margin: 0 auto;
@@ -158,7 +158,7 @@ ul {
 	background-color: #f3f1ee;
 }
 
-.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13 {
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18 {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -170,19 +170,19 @@ ul {
 	transition: .5s ease;
 }
 
-.p1, .p3, .p6 {
+.p9, .p18, .p17 {
 	background-color: #6683F4;
 }
-.p2, .p4, .p7 {
+.p15, .p13, .p16 {
 	background-color: #5C76DA;
 }
-.p9, .p5, .p8 {
+.p10, .p12, .p7 {
 	background-color: #4C61B4;
 }
-.p12, .p10, .p11 {
+.p14, .p8, .p11, .p2, .p4 {
 	background-color: #313F74;
 }
-.p13 {
+.p1, .p3, .p6, .p5{
 	background-color: #161C35;
 }
 
@@ -204,13 +204,13 @@ ul {
 .purp:hover .p6{
 	opacity: 1;
 }
-.blue:hover .p7{
+.void:hover .p7{
 	opacity: 1;
 }
 .bluedip:hover .p8 {
 	opacity: 1;
 }
-.house:hover .p9 {
+.paige:hover .p9 {
 	opacity: 1;
 }
 .cure:hover .p10 {
@@ -225,6 +225,23 @@ ul {
 .begin:hover .p13{
 	opacity: 1;
 }
+.landscape:hover .p14 {
+	opacity: 1;
+}
+.jenna:hover .p15 {
+	opacity: 1;
+}
+.sero:hover .p16{
+	opacity: 1;
+}
+.wyatt:hover .p17 {
+	opacity: 1;
+}
+.allie:hover .p18 {
+	opacity: 1;
+}
+
+
 
 .text {
 	font-family: 'lato', sans-serif;
