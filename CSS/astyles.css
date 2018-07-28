@@ -42,14 +42,13 @@ ul {
 }
 
 .dropdown {
-	display: none;
+	display: block;
 	position: absolute;
-	left: 1.5%;
-	top: 85px;
+	left: 3%;
+	top: 90px;
 	min-width: 100px;
 	z-index: 5;
 	position: fixed;
-	background-color: white;
 }
 
 .dropdown a {
@@ -59,8 +58,9 @@ ul {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	letter-spacing: .05em;
-	text-align: center;
+	text-align: left;
 	padding: 5px;
+	font-size: 14px;
 }
 
 .navhover:hover .dropdown {
@@ -81,7 +81,7 @@ ul {
 	font-size: 40px;
 	display: block;
 	margin: 0 auto;
-	color: #000000;
+	color: #424249;
 	letter-spacing: .15em;
 	font-weight: 700;
 	margin-top: 2%;
@@ -245,7 +245,7 @@ ul {
 
 .text {
 	font-family: 'lato', sans-serif;
-	color: #000000;
+	color: #595959;
 	font-size: 12px;
 	font-weight: 400;
 	text-align: left;
@@ -293,6 +293,7 @@ ul {
 
 .copyright {
     width: 90%;
+    opacity: 0.7;
     margin: 0 auto;
     text-align: center;
     font-size: .7em;
@@ -396,6 +397,11 @@ ul {
 	}
 	.image35 {
 		width: 80%;
+	}
+}
+@media screen and (max-width: 450px) {	
+	.dropdown {
+		display: none;
 	}
 }
 
